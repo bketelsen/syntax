@@ -18,7 +18,7 @@ export default function Blog({ posts }) {
       <Hero
         title={siteMetadata.heroTitle}
         text={siteMetadata.heroText}  >
-        <Image src="/static/images/header/ant-ge7e4a661a_1280.png" width={1280} height={852} alt="" className= "w-full rounded-lg" />
+        <Image src="/static/images/header/skull.png" width={425} height={515} alt="" className= "w-full rounded-lg" />
       </Hero>
 
       <SectionContainer>
@@ -26,7 +26,7 @@ export default function Blog({ posts }) {
           <LinkGrid.Link
             title="Articles" icon="lightbulb" href="/blog" description="It was just too long for a tweet." />
           <LinkGrid.Link
-            title="Elsewhere" icon="installation" href="/" description="Presentations, talks, and appearances elsewhere."
+            title="Elsewhere" icon="installation" href="/elsewhere" description="Presentations, talks, and appearances elsewhere."
           />
           <LinkGrid.Link
             title="Bytes" icon="theming" href="/bytes" description="Quick byte-sized links to interesting things."
