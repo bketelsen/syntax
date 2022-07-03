@@ -1,0 +1,34 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>brian.dev</title>
+      <link>https://brian.dev/blog</link>
+      <description>A blog created with Next.js and Tailwind.css</description>
+      <language>en-us</language>
+      <managingEditor>address@yoursite.com (Brian Ketelsen)</managingEditor>
+      <webMaster>address@yoursite.com (Brian Ketelsen)</webMaster>
+      <lastBuildDate>Fri, 14 Aug 2020 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://brian.dev/tags/terminal/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://brian.dev/blog/install-func</guid>
+    <title>Bash Helpers for Quick Installs</title>
+    <link>https://brian.dev/blog/install-func</link>
+    <description>A quick helper function and directory layout for repeatable software installs.</description>
+    <pubDate>Fri, 14 Aug 2020 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>linux</category><category>open source</category><category>terminal</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/byobu-wsl</guid>
+    <title>Byobu on WSL</title>
+    <link>https://brian.dev/blog/byobu-wsl</link>
+    <description>Make your life easier with Byobu</description>
+    <pubDate>Wed, 09 Oct 2019 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>terminal</category>
+  </item>
+
+    </channel>
+  </rss>

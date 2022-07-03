@@ -1,0 +1,44 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>brian.dev</title>
+      <link>https://brian.dev/blog</link>
+      <description>A blog created with Next.js and Tailwind.css</description>
+      <language>en-us</language>
+      <managingEditor>address@yoursite.com (Brian Ketelsen)</managingEditor>
+      <webMaster>address@yoursite.com (Brian Ketelsen)</webMaster>
+      <lastBuildDate>Tue, 03 Mar 2020 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://brian.dev/tags/30-daywslchallenge/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://brian.dev/blog/ssh-to-wsl2</guid>
+    <title>Remote SSH Connections to WSL2</title>
+    <link>https://brian.dev/blog/ssh-to-wsl2</link>
+    <description>A Series on Using Windows for Open Source Development</description>
+    <pubDate>Tue, 03 Mar 2020 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>windows</category><category>linux</category><category>open source</category><category>30-daywslchallenge</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/hello-wascc</guid>
+    <title>Hello waSCC</title>
+    <link>https://brian.dev/blog/hello-wascc</link>
+    <description>Web Assembly on the Server</description>
+    <pubDate>Tue, 25 Feb 2020 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>open source</category><category>30-daywslchallenge</category><category>wasm</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/win-the-dev-box</guid>
+    <title>Windows for Open Source Development</title>
+    <link>https://brian.dev/blog/win-the-dev-box</link>
+    <description>A Series on Using Windows for Open Source Development</description>
+    <pubDate>Mon, 24 Feb 2020 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>windows</category><category>linux</category><category>open source</category><category>30-daywslchallenge</category>
+  </item>
+
+    </channel>
+  </rss>

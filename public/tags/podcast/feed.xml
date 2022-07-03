@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>brian.dev</title>
+      <link>https://brian.dev/blog</link>
+      <description>A blog created with Next.js and Tailwind.css</description>
+      <language>en-us</language>
+      <managingEditor>address@yoursite.com (Brian Ketelsen)</managingEditor>
+      <webMaster>address@yoursite.com (Brian Ketelsen)</webMaster>
+      <lastBuildDate>Mon, 12 Jul 2021 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://brian.dev/tags/podcast/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://brian.dev/blog/the-popcast-episode-76</guid>
+    <title>The POPCAST Episode 76</title>
+    <link>https://brian.dev/blog/the-popcast-episode-76</link>
+    <description>I had a great time with Dan on this episode of The POPCAST.</description>
+    <pubDate>Mon, 12 Jul 2021 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>podcast</category>
+  </item>
+
+    </channel>
+  </rss>

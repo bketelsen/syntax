@@ -1,13 +1,10 @@
 ---
 title: 'New features in v1'
 date: 2021-08-07T15:32:14Z
-lastmod: '2021-02-01'
 tags: ['next-js', 'tailwind', 'guide']
-draft: false
+draft: true
 summary: 'An overview of the new features released in v1 - code block copy, multiple authors, frontmatter layout and more'
 layout: PostSimple
-bibliography: references-data.bib
-canonicalUrl: https://tailwind-nextjs-starter-blog.vercel.app/blog/new-features-in-v1/
 ---
 
 ## Overview
@@ -16,7 +13,7 @@ A post on the new features introduced in v1.0. New features:
 
 <TOCInline toc={props.toc} exclude="Overview" toHeading={2} />
 
-First load JS decreased from 43kB to 39kB despite all the new features added!^[With the new changes in Nextjs 12, first load JS increase to 45kB.]
+First load JS decreased from 43kB to 39kB despite all the new features added!
 
 See [upgrade guide](#upgrade-guide) below if you are migrating from v0 version of the template.
 
@@ -28,7 +25,7 @@ You can easily modify the theme color by changing the primary attribute in the t
 theme: {
     colors: {
       primary: colors.teal,
-      gray: colors.neutral,
+      gray: colors.trueGray,
       ...
     }
   ...
@@ -39,10 +36,7 @@ The primary color attribute should be assigned an object with keys from 50, 100,
 
 Tailwind includes great default color palettes that can be used for theming your own website. Check out [customizing colors documentation page](https://tailwindcss.com/docs/customizing-colors) for the full range of options.
 
-Migrating from v1? You can revert to the previous theme by setting `primary` to `colors.sky` (Tailwind 2.2.2 and above, otherwise `colors.lightBlue`) and changing gray to `colors.gray`.
-
-From v1.1.2+, you can also customize the style of your code blocks easily by modifying the `css/prism.css` stylesheet. Token classnames are compatible with prismjs
-so you can copy and adapt token styles from a prismjs stylesheet e.g. [prism themes](https://github.com/PrismJS/prism-themes).
+Migrating from v1? You can revert to the previous theme by setting `primary` to `colors.sky` (Tailwind 2.2.2 and above, otherwise `colors.lightBlue`) and changing gray to `colors.coolGray`.
 
 ## Xdm MDX compiler
 
@@ -58,12 +52,12 @@ Some new possibilities include loading components directly in the mdx file using
 
 For example, the following jsx snippet can be used directly in an MDX file to render the page title component:
 
-```jsx
-import PageTitle from './PageTitle'
+```js
+import PageTitle from '@/components/PageTitle.jsx'
 ;<PageTitle> Using JSX components in MDX </PageTitle>
 ```
 
-import PageTitle from './PageTitle'
+import PageTitle from '@/components/PageTitle.jsx'
 
 <PageTitle> Using JSX components in MDX </PageTitle>
 
@@ -71,7 +65,7 @@ The default configuration resolves all components relative to the `components` d
 
 **Note**:
 Components which require external image loaders also require additional esbuild configuration.
-Components which are dependent on global application state on lifecycle like the Nextjs `Link` component would also not work with this setup as each mdx file is built independently.
+Components which are dependent on global application state on lifecycle like the Nextjs `Link` component would also not work with this setup as each mdx file is built indepedently.
 For such cases, it is better to use component substitution.
 
 ## Table of contents component
@@ -82,7 +76,7 @@ To make generating a table of contents (TOC) simple, you can use the existing `T
 
 For example, the TOC in this post was generated with the following code:
 
-```jsx
+```js
 <TOCInline toc={props.toc} exclude="Overview" toHeading={2} />
 ```
 
@@ -92,7 +86,7 @@ A `asDisclosure` prop can be used to render the TOC within an expandable disclos
 
 Here's the full TOC rendered in a disclosure element.
 
-```jsx
+```js
 <TOCInline toc={props.toc} asDisclosure />
 ```
 
@@ -113,7 +107,7 @@ You can configure the template to take in other fields - see `PostLayout` compon
 
 Here's an example layout which you can further customise:
 
-```jsx
+```js
 export default function ExampleLayout({ frontMatter, children }) {
   const { date, title } = frontMatter
 
@@ -149,7 +143,7 @@ The `DEFAULT_LAYOUT` for blog posts page is set to `PostLayout`.
 
 `layout` is mapped to wrapper which wraps the entire MDX content.
 
-```jsx
+```js
 export const MDXComponents = {
   Image,
   a: CustomLink,
@@ -167,13 +161,13 @@ export const MDXLayoutRenderer = ({ layout, mdxSource, ...rest }) => {
 }
 ```
 
-Use the `MDXLayoutRenderer` component on a page where you want to accept a layout name to map to the desired layout.
+Use the `MDXLayoutRenderer` component in a page where you want to accept a layout name to map to the desired layout.
 You need to pass the layout name from the layout folder (it has to be an exact match).
 
 ## Analytics
 
 The template now supports [plausible](https://plausible.io/), [simple analytics](https://simpleanalytics.com/) and google analytics.
-Configure `siteMetadata.js` with the settings that correspond with the desired analytics provider.
+Configure `siteMetadata.js` with the settings that correpond with the desired analytics provider.
 
 ```js
 analytics: {
@@ -242,7 +236,7 @@ comment: {
 
 Information on authors is now split from `siteMetadata.js` and stored in its own `data/authors` folder as a markdown file. Minimally, you will need to have a `default.md` file with authorship information. You can create additional files as required and the file name will be used as the reference to the author.
 
-Here's how an author markdown file might look like:
+Here's how an author markdown file might looks like:
 
 ```md:default.md
 ---
@@ -261,7 +255,7 @@ A long description of yourself...
 
 You can use this information in multiple places across the template. For example in the about section of the page, we grab the default author information with this line of code:
 
-```js
+```
 const authorDetails = await getFileBySlug('authors', ['default'])
 ```
 
@@ -269,11 +263,11 @@ This is rendered in the `AuthorLayout` template.
 
 ### Multiple authors in blog post
 
-The frontmatter of a blog post accepts an optional `authors` array field. If no field is specified, it is assumed that the default author is used. Simply pass in an array of authors to render multiple authors associated with a post.
+The frontmatter of a blog post accepts an optional `authors` arrray field. If no field is specified, it is assumed that the default author is used. Simply pass in an array of authors to render multiple authors associated with post.
 
 For example, the following frontmatter will display the authors given by `data/authors/default.md` and `data/authors/sparrowhawk.md`
 
-```yaml
+```
 title: 'My first post'
 date: '2021-01-12'
 draft: false
@@ -281,16 +275,16 @@ summary: 'My first post'
 authors: ['default', 'sparrowhawk']
 ```
 
-A demo of a multiple authors post is shown in [Introducing Tailwind Nextjs Starter Blog post](/blog/introducing-tailwind-nextjs-starter-blog).
+A demo of a multiple author post is shown in [Introducing Tailwind Nextjs Starter Blog post](/blog/introducing-tailwind-nextjs-starter-blog).
 
 ## Copy button for code blocks
 
-Hover over a code block and you will notice a GitHub-inspired copy button! You can modify `./components/Pre.js` to further customise it.
+Hover over a code block and you will notice a Github inspired copy button! You can modify `./components/Pre.js` to further customise it.
 The component is passed to `MDXComponents` and modifies all `<pre>` blocks.
 
 ## Line highlighting and line numbers
 
-Line highlighting and line numbers are now supported out of the box thanks to the new [rehype-prism-plus plugin](https://github.com/timlrx/rehype-prism-plus)
+Line highlighting and line numbers is now supported out of the box thanks to the new [rehype-prism-plus plugin](https://github.com/timlrx/rehype-prism-plus)
 
 The following javascript code block:
 
@@ -314,119 +308,33 @@ sum = parseInt(num1) + parseInt(num2) // "+" means "add"
 alert('Sum = ' + sum) // "+" means combine into a string
 ```
 
-To modify the styles, change the following class selectors in the `prism.css` file:
+To modify the styles, change the following class selectors in the `tailwind.css` file:
 
 ```css
-.code-highlight {
-  @apply float-left min-w-full;
-}
-
 .code-line {
-  @apply -mx-4 block border-l-4 border-opacity-0 pl-4 pr-4;
-}
-
-.code-line.inserted {
-  @apply bg-green-500 bg-opacity-20;
-}
-
-.code-line.deleted {
-  @apply bg-red-500 bg-opacity-20;
+  @apply pl-4 -mx-4 border-l-4 border-gray-800;
 }
 
 .highlight-line {
-  @apply -mx-4 border-l-4 border-primary-500 bg-gray-700 bg-opacity-50;
+  @apply -mx-4 bg-gray-700 bg-opacity-50 border-l-4 border-primary-500;
 }
 
 .line-number::before {
-  @apply mr-4 -ml-2 inline-block w-4 text-right text-gray-400;
+  @apply pr-4 -ml-2 text-gray-400;
   content: attr(line);
 }
 ```
-
-## Newletter component (v1.1.3)
-
-Introduced in v1.1.3, the newsletter component gives you an easy way to build an audience. It integrates with the following providers:
-
-- [Mailchimp](https://mailchimp.com/)
-- [Buttondown](https://buttondown.email/)
-- [Convertkit](https://convertkit.com/)
-
-To use it, specify the provider which you are using in the config file and add the necessary environment variables to the `.env` file.
-For more information on the required variables, check out `.env.sample.`
-
-Two components are exported, a default `NewsletterForm` and a `BlogNewsletterForm` component, which is also passed in as an MDX component
-and can be used in a blog post:
-
-```jsx
-<BlogNewsletterForm title="Like what you are reading?" />
-```
-
-<BlogNewsletterForm title="Like what you are reading?" />
-
-The component relies on nextjs's [API routes](https://nextjs.org/docs/api-routes/introduction) which requires a server-side instance of nextjs to be setup
-and is not compatible with a 100% static site export. Users should either self-host or use a compatible platform like Vercel or Netlify which supports this functionality.
-
-A static site compatible alternative is to substitute the route in the newsletter component with a form API endpoint provider.
-
-## Bibliography and Citations (v1.2.1)
-
-`rehype-citation` plugin is added to the xdm processing pipeline in v1.2.1. This allows you to easily format citations and insert bibliography from an existing bibtex or CSL-json file.
-
-For example, the following markdown code sample:
-
-```md
-Standard citation [@Nash1950]
-In-text citations e.g. @Nash1951
-Multiple citations [see @Nash1950; @Nash1951, page 50]
-
-**References:**
-
-[^ref]
-```
-
-is rendered to the following:
-
-Standard citation [@Nash1950]
-In-text citations e.g. @Nash1951
-Multiple citations [see @Nash1950; @Nash1951, page 50]
-
-**References:**
-
-[^ref]
-
-A bibliography will be inserted at the end of the document, but this can be overwritten by specifying a `[^Ref]` tag at the intended location.
-The plugin uses APA citation formation, but also supports the following CSLs, 'apa', 'vancouver', 'harvard1', 'chicago', 'mla', or a path to a user-specified CSL file.
-
-See [rehype-citation readme](https://github.com/timlrx/rehype-citation) for more information on the configuration options.
-
-## Self-hosted font (v1.5.0)
-
-Google font has been replaced with self-hosted font from [Fontsource](https://fontsource.org/). This gives the following [advantages](https://fontsource.org/docs/introduction):
-
-> Self-hosting brings significant performance gains as loading fonts from hosted services, such as Google Fonts, lead to an extra (render blocking) network request. To provide perspective, for simple websites it has been seen to double visual load times.
->
-> Fonts remain version locked. Google often pushes updates to their fonts without notice, which may interfere with your live production projects. Manage your fonts like any other NPM dependency.
->
-> Commit to privacy. Google does track the usage of their fonts and for those who are extremely privacy concerned, self-hosting is an alternative.
-
-This leads to a smaller font bundle and a 0.1s faster load time ([webpagetest comparison](https://www.webpagetest.org/video/compare.php?tests=220201_AiDcFH_f68a69b758454dd52d8e67493fdef7da,220201_BiDcMC_bf2d53f14483814ba61e794311dfa771)).
-
-To change the default Inter font:
-
-1. Install the preferred [font](https://fontsource.org/fonts) - `npm install -save @fontsource/<font-name>`
-2. Update the import at `pages/_app.js`- `import '@fontsource/<font-name>.css'`
-3. Update the `fontfamily` property in the tailwind css config file
 
 ## Upgrade guide
 
 There are significant portions of the code that has been changed from v0 to v1 including support for layouts and a new mdx engine.
 
 There's also no real reason to change if the previous one serves your needs and it might be easier to copy
-the component changes you are interested in to your existing blog rather than migrating everything over.
+the component changes you are interested to your existing blog rather than migrating everything over.
 
 Nonetheless, if you want to do so and have not changed much of the template, you could clone the new version and copy over the blog post over to the new template.
 
-Another alternative would be to pull the latest template version with the following code:
+Another alternative would be to pull the latest tempate version with the following code:
 
 ```bash
 git remote add template git@github.com:timlrx/tailwind-nextjs-starter-blog.git
@@ -436,9 +344,9 @@ rm -rf node_modules
 
 You can see an example of such a migration in this [commit](https://github.com/timlrx/timlrx.com/commit/bba1c185384fd6d5cdaac15abf802fdcff027286) for my personal blog.
 
-v1 also uses `feed.xml` rather than `index.xml`, to avoid some build issues with Vercel. If you are migrating you should add a redirect to `next.config.js` like so:
+v1 also uses `feed.xml` rather than `index.xml`, to avoid some build issues with vercel. If you are migrating you should add a redirect to `next.config.js` like so:
 
-```js
+```
 async redirects() {
   return [
     {

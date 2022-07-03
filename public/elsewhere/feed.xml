@@ -1,0 +1,44 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>brian.dev</title>
+      <link>https://brian.dev/blog</link>
+      <description>A blog created with Next.js and Tailwind.css</description>
+      <language>en-us</language>
+      <managingEditor>address@yoursite.com (Brian Ketelsen)</managingEditor>
+      <webMaster>address@yoursite.com (Brian Ketelsen)</webMaster>
+      <lastBuildDate>Mon, 12 Jul 2021 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://brian.dev/null" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://brian.dev/blog/the-popcast-episode-76</guid>
+    <title>The POPCAST Episode 76</title>
+    <link>https://brian.dev/blog/the-popcast-episode-76</link>
+    <description>I had a great time with Dan on this episode of The POPCAST.</description>
+    <pubDate>Mon, 12 Jul 2021 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>podcast</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/arrested-devops-appearance-on-krustlet</guid>
+    <title>Arrested DevOps Appearance on Krustlet</title>
+    <link>https://brian.dev/blog/arrested-devops-appearance-on-krustlet</link>
+    <description>Podcast about Rust, Kubernetes, and Web Assembly</description>
+    <pubDate>Tue, 14 Apr 2020 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>rust</category><category>wasm</category><category>podcast</category><category>kubernetes</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/stuttgart-go-meetup</guid>
+    <title>Stuttgart Go Meetup</title>
+    <link>https://brian.dev/blog/stuttgart-go-meetup</link>
+    <description>Presentation to Stuttgart Go Meetup about Go Modules</description>
+    <pubDate>Thu, 20 Sep 2018 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>go</category>
+  </item>
+
+    </channel>
+  </rss>

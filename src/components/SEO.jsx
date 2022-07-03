@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import { useRouter } from 'next/router'
 import siteMetadata from '@/data/siteMetadata'
+import { useRouter } from 'next/router'
 
-const CommonSEO = ({ title, description, ogType, ogImage, twImage, canonicalUrl }) => {
+const CommonSEO = ({ title, description, ogType, ogImage, twImage }) => {
   const router = useRouter()
   return (
     <Head>
@@ -24,10 +24,6 @@ const CommonSEO = ({ title, description, ogType, ogImage, twImage, canonicalUrl 
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={twImage} />
-      <link
-        rel="canonical"
-        href={canonicalUrl ? canonicalUrl : `${siteMetadata.siteUrl}${router.asPath}`}
-      />
     </Head>
   )
 }
@@ -73,13 +69,13 @@ export const TagSEO = ({ title, description }) => {
 
 export const BlogSEO = ({
   authorDetails,
+  slug,
   title,
   summary,
   date,
   lastmod,
   url,
   images = [],
-  canonicalUrl,
 }) => {
   const router = useRouter()
   const publishedAt = new Date(date).toISOString()
@@ -94,7 +90,7 @@ export const BlogSEO = ({
   const featuredImages = imagesArr.map((img) => {
     return {
       '@type': 'ImageObject',
-      url: img.includes('http') ? img : siteMetadata.siteUrl + img,
+      url: `${siteMetadata.siteUrl}${img}`,
     }
   })
 
@@ -136,7 +132,7 @@ export const BlogSEO = ({
     description: summary,
   }
 
-  const twImageUrl = featuredImages[0].url
+  const twImageUrl = `${siteMetadata.siteUrl}/static/images/og/blog/${slug}.png`
 
   return (
     <>
@@ -144,13 +140,103 @@ export const BlogSEO = ({
         title={title}
         description={summary}
         ogType="article"
-        ogImage={featuredImages}
+        ogImage={twImageUrl}
         twImage={twImageUrl}
-        canonicalUrl={canonicalUrl}
       />
       <Head>
         {date && <meta property="article:published_time" content={publishedAt} />}
         {lastmod && <meta property="article:modified_time" content={modifiedAt} />}
+        <link rel="canonical" href={`${siteMetadata.siteUrl}${router.asPath}`} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(structuredData, null, 2),
+          }}
+        />
+      </Head>
+    </>
+  )
+}
+export const ElsewhereSEO = ({
+  authorDetails,
+  slug,
+  title,
+  summary,
+  date,
+  lastmod,
+  url,
+  images = [],
+}) => {
+  const router = useRouter()
+  const publishedAt = new Date(date).toISOString()
+  const modifiedAt = new Date(lastmod || date).toISOString()
+  let imagesArr =
+    images.length === 0
+      ? [siteMetadata.socialBanner]
+      : typeof images === 'string'
+      ? [images]
+      : images
+
+  const featuredImages = imagesArr.map((img) => {
+    return {
+      '@type': 'ImageObject',
+      url: `${siteMetadata.siteUrl}${img}`,
+    }
+  })
+
+  let authorList
+  if (authorDetails) {
+    authorList = authorDetails.map((author) => {
+      return {
+        '@type': 'Person',
+        name: author.name,
+      }
+    })
+  } else {
+    authorList = {
+      '@type': 'Person',
+      name: siteMetadata.author,
+    }
+  }
+
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': url,
+    },
+    headline: title,
+    image: featuredImages,
+    datePublished: publishedAt,
+    dateModified: modifiedAt,
+    author: authorList,
+    publisher: {
+      '@type': 'Organization',
+      name: siteMetadata.author,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${siteMetadata.siteUrl}${siteMetadata.siteLogo}`,
+      },
+    },
+    description: summary,
+  }
+
+  const twImageUrl = `${siteMetadata.siteUrl}/static/images/og/elsewhere/${slug}.png`
+
+  return (
+    <>
+      <CommonSEO
+        title={title}
+        description={summary}
+        ogType="article"
+        ogImage={twImageUrl}
+        twImage={twImageUrl}
+      />
+      <Head>
+        {date && <meta property="article:published_time" content={publishedAt} />}
+        {lastmod && <meta property="article:modified_time" content={modifiedAt} />}
+        <link rel="canonical" href={`${siteMetadata.siteUrl}${router.asPath}`} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

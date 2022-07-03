@@ -1,16 +1,20 @@
 ---
 name: Brian Ketelsen
-avatar: /static/images/avatar.png
-occupation: Developer Advocate
-company: Amazon Web Services
+avatar: /static/images/logo.png
+occupation: Cloud Developer Advocate
+company: Microsoft/Azure
 email: mail@bjk.fyi
 twitter: https://twitter.com/bketelsen
-linkedin: https://www.linkedin.com
+linkedin: https://www.linkedin.com/bketelsen
 github: https://github.com/bketelsen
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+I'm a cloud developer advocate at Microsoft Azure. I love learning and experimenting
+and you'll always find me trying to connect things that weren't previously connected
+or build things that haven't been built.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+Along with Erik St. Martin, I co-founded GopherCon, the largest Go conference in the
+world.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+While my strengths lie in the backend, I've been forcing myself to learn frontend
+development recently, and enjoy Next.js and Svelte quite a bit.

@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>brian.dev</title>
+      <link>https://brian.dev/blog</link>
+      <description>A blog created with Next.js and Tailwind.css</description>
+      <language>en-us</language>
+      <managingEditor>address@yoursite.com (Brian Ketelsen)</managingEditor>
+      <webMaster>address@yoursite.com (Brian Ketelsen)</webMaster>
+      <lastBuildDate>Tue, 25 Aug 2020 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://brian.dev/tags/cloud/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://brian.dev/blog/azure-vm-list</guid>
+    <title>List The Azure Virtual Machines Available</title>
+    <link>https://brian.dev/blog/azure-vm-list</link>
+    <description>Get a list of the different VM base images available on Azure</description>
+    <pubDate>Tue, 25 Aug 2020 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>azure</category><category>cloud</category>
+  </item>
+
+    </channel>
+  </rss>

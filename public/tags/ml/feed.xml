@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>brian.dev</title>
+      <link>https://brian.dev/blog</link>
+      <description>A blog created with Next.js and Tailwind.css</description>
+      <language>en-us</language>
+      <managingEditor>address@yoursite.com (Brian Ketelsen)</managingEditor>
+      <webMaster>address@yoursite.com (Brian Ketelsen)</webMaster>
+      <lastBuildDate>Tue, 03 Sep 2019 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://brian.dev/tags/ml/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://brian.dev/blog/ai-ml-documents-one</guid>
+    <title>Organizing Documents with Some AI, ML, and Elbow Grease</title>
+    <link>https://brian.dev/blog/ai-ml-documents-one</link>
+    <description>Organizing my loose documents with some machine learning, cognitive services, and elbow grease.</description>
+    <pubDate>Tue, 03 Sep 2019 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>ml</category><category>linux</category><category>azure</category>
+  </item>
+
+    </channel>
+  </rss>

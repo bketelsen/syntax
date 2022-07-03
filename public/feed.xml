@@ -7,97 +7,257 @@
       <language>en-us</language>
       <managingEditor>address@yoursite.com (Brian Ketelsen)</managingEditor>
       <webMaster>address@yoursite.com (Brian Ketelsen)</webMaster>
-      <lastBuildDate>Sat, 07 Aug 2021 15:32:14 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 12 Jul 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://brian.dev/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://brian.dev/blog/new-features-in-v1</guid>
-    <title>New features in v1</title>
-    <link>https://brian.dev/blog/new-features-in-v1</link>
-    <description>An overview of the new features released in v1 - code block copy, multiple authors, frontmatter layout and more</description>
-    <pubDate>Sat, 07 Aug 2021 15:32:14 GMT</pubDate>
+    <guid>https://brian.dev/blog/the-popcast-episode-76</guid>
+    <title>The POPCAST Episode 76</title>
+    <link>https://brian.dev/blog/the-popcast-episode-76</link>
+    <description>I had a great time with Dan on this episode of The POPCAST.</description>
+    <pubDate>Mon, 12 Jul 2021 00:00:00 GMT</pubDate>
     <author>address@yoursite.com (Brian Ketelsen)</author>
-    <category>next-js</category><category>tailwind</category><category>guide</category>
+    <category>podcast</category>
   </item>
 
   <item>
-    <guid>https://brian.dev/blog/nested-route/introducing-multi-part-posts-with-nested-routing</guid>
-    <title>Introducing Multi-part Posts with Nested Routing</title>
-    <link>https://brian.dev/blog/nested-route/introducing-multi-part-posts-with-nested-routing</link>
-    <description>The blog template supports posts in nested sub-folders. This can be used to group posts of similar content e.g. a multi-part course. This post is itself an example of a nested route!</description>
-    <pubDate>Sun, 02 May 2021 00:00:00 GMT</pubDate>
+    <guid>https://brian.dev/blog/azure-vm-list</guid>
+    <title>List The Azure Virtual Machines Available</title>
+    <link>https://brian.dev/blog/azure-vm-list</link>
+    <description>Get a list of the different VM base images available on Azure</description>
+    <pubDate>Tue, 25 Aug 2020 00:00:00 GMT</pubDate>
     <author>address@yoursite.com (Brian Ketelsen)</author>
-    <category>multi-author</category><category>next-js</category><category>feature</category>
+    <category>azure</category><category>cloud</category>
   </item>
 
   <item>
-    <guid>https://brian.dev/blog/introducing-tailwind-nextjs-starter-blog</guid>
-    <title>Introducing Tailwind Nextjs Starter Blog</title>
-    <link>https://brian.dev/blog/introducing-tailwind-nextjs-starter-blog</link>
-    <description>Looking for a performant, out of the box template, with all the best in web technology to support your blogging needs? Checkout the Tailwind Nextjs Starter Blog template.</description>
-    <pubDate>Tue, 12 Jan 2021 00:00:00 GMT</pubDate>
+    <guid>https://brian.dev/blog/install-func</guid>
+    <title>Bash Helpers for Quick Installs</title>
+    <link>https://brian.dev/blog/install-func</link>
+    <description>A quick helper function and directory layout for repeatable software installs.</description>
+    <pubDate>Fri, 14 Aug 2020 00:00:00 GMT</pubDate>
     <author>address@yoursite.com (Brian Ketelsen)</author>
-    <category>next-js</category><category>tailwind</category><category>guide</category>
+    <category>linux</category><category>open source</category><category>terminal</category>
   </item>
 
   <item>
-    <guid>https://brian.dev/blog/deriving-ols-estimator</guid>
-    <title>Deriving the OLS Estimator</title>
-    <link>https://brian.dev/blog/deriving-ols-estimator</link>
-    <description>How to derive the OLS Estimator with matrix notation and a tour of math typesetting using markdown with the help of KaTeX.</description>
-    <pubDate>Mon, 21 Dec 2020 00:00:00 GMT</pubDate>
+    <guid>https://brian.dev/blog/ssh-to-wsl2</guid>
+    <title>Remote SSH Connections to WSL2</title>
+    <link>https://brian.dev/blog/ssh-to-wsl2</link>
+    <description>A Series on Using Windows for Open Source Development</description>
+    <pubDate>Tue, 03 Mar 2020 00:00:00 GMT</pubDate>
     <author>address@yoursite.com (Brian Ketelsen)</author>
-    <category>next js</category><category>math</category><category>ols</category>
+    <category>windows</category><category>linux</category><category>open source</category><category>30-daywslchallenge</category>
   </item>
 
   <item>
-    <guid>https://brian.dev/blog/guide-to-using-images-in-nextjs</guid>
-    <title>Images in Next.js</title>
-    <link>https://brian.dev/blog/guide-to-using-images-in-nextjs</link>
-    <description>In this article we introduce adding images in the tailwind starter blog and the benefits and limitations of the next/image component.</description>
-    <pubDate>Wed, 11 Nov 2020 00:00:00 GMT</pubDate>
+    <guid>https://brian.dev/blog/hello-wascc</guid>
+    <title>Hello waSCC</title>
+    <link>https://brian.dev/blog/hello-wascc</link>
+    <description>Web Assembly on the Server</description>
+    <pubDate>Tue, 25 Feb 2020 00:00:00 GMT</pubDate>
     <author>address@yoursite.com (Brian Ketelsen)</author>
-    <category>next js</category><category>guide</category>
+    <category>open source</category><category>30-daywslchallenge</category><category>wasm</category>
   </item>
 
   <item>
-    <guid>https://brian.dev/blog/github-markdown-guide</guid>
-    <title>Markdown Guide</title>
-    <link>https://brian.dev/blog/github-markdown-guide</link>
-    <description>Markdown cheatsheet for all your blogging needs - headers, lists, images, tables and more! An illustrated guide based on GitHub Flavored Markdown.</description>
-    <pubDate>Fri, 11 Oct 2019 00:00:00 GMT</pubDate>
+    <guid>https://brian.dev/blog/win-the-dev-box</guid>
+    <title>Windows for Open Source Development</title>
+    <link>https://brian.dev/blog/win-the-dev-box</link>
+    <description>A Series on Using Windows for Open Source Development</description>
+    <pubDate>Mon, 24 Feb 2020 00:00:00 GMT</pubDate>
     <author>address@yoursite.com (Brian Ketelsen)</author>
-    <category>github</category><category>guide</category>
+    <category>windows</category><category>linux</category><category>open source</category><category>30-daywslchallenge</category>
   </item>
 
   <item>
-    <guid>https://brian.dev/blog/the-time-machine</guid>
-    <title>The Time Machine</title>
-    <link>https://brian.dev/blog/the-time-machine</link>
-    <description>The Time Traveller (for so it will be convenient to speak of him) was expounding a recondite matter to us. His pale grey eyes shone and twinkled, and his usually pale face was flushed and animated...</description>
-    <pubDate>Wed, 15 Aug 2018 00:00:00 GMT</pubDate>
+    <guid>https://brian.dev/blog/byobu-wsl</guid>
+    <title>Byobu on WSL</title>
+    <link>https://brian.dev/blog/byobu-wsl</link>
+    <description>Make your life easier with Byobu</description>
+    <pubDate>Wed, 09 Oct 2019 00:00:00 GMT</pubDate>
     <author>address@yoursite.com (Brian Ketelsen)</author>
-    <category>writings</category><category>book</category><category>reflection</category>
+    <category>terminal</category>
   </item>
 
   <item>
-    <guid>https://brian.dev/blog/pictures-of-canada</guid>
-    <title>O Canada</title>
-    <link>https://brian.dev/blog/pictures-of-canada</link>
-    <description>The scenic lands of Canada featuring maple leaves, snow-capped mountains, turquoise lakes and Toronto. Take in the sights in this photo gallery exhibition and see how easy it is to replicate with some MDX magic and tailwind classes.</description>
-    <pubDate>Sat, 15 Jul 2017 00:00:00 GMT</pubDate>
+    <guid>https://brian.dev/blog/eggbites</guid>
+    <title>Egg Bites</title>
+    <link>https://brian.dev/blog/eggbites</link>
+    <description>Quick Recipe for a home-made version of Starbucks Sous-vide Egg Bites</description>
+    <pubDate>Fri, 13 Sep 2019 00:00:00 GMT</pubDate>
     <author>address@yoursite.com (Brian Ketelsen)</author>
-    <category>holiday</category><category>canada</category><category>images</category>
+    <category>recipe</category>
   </item>
 
   <item>
-    <guid>https://brian.dev/blog/code-sample</guid>
-    <title>Sample .md file</title>
-    <link>https://brian.dev/blog/code-sample</link>
-    <description>Example of a markdown file with code blocks and syntax highlighting</description>
-    <pubDate>Tue, 08 Mar 2016 00:00:00 GMT</pubDate>
+    <guid>https://brian.dev/blog/ai-ml-documents-one</guid>
+    <title>Organizing Documents with Some AI, ML, and Elbow Grease</title>
+    <link>https://brian.dev/blog/ai-ml-documents-one</link>
+    <description>Organizing my loose documents with some machine learning, cognitive services, and elbow grease.</description>
+    <pubDate>Tue, 03 Sep 2019 00:00:00 GMT</pubDate>
     <author>address@yoursite.com (Brian Ketelsen)</author>
-    <category>markdown</category><category>code</category><category>features</category>
+    <category>ml</category><category>linux</category><category>azure</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/vscode-remote</guid>
+    <title>VS Code Remote Development</title>
+    <link>https://brian.dev/blog/vscode-remote</link>
+    <description>Use VS Code against a remote computer or container</description>
+    <pubDate>Wed, 05 Dec 2018 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>vscode</category><category>development</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/retractable-green-screen-on-the-cheap</guid>
+    <title>Retractable Green Screen On the Cheap</title>
+    <link>https://brian.dev/blog/retractable-green-screen-on-the-cheap</link>
+    <description>Retractable Green Screen On the Cheap</description>
+    <pubDate>Sat, 06 Oct 2018 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>hacks</category><category>video</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/going-overboard-with-wsl-metadata</guid>
+    <title>Going Overboard with WSL metadata</title>
+    <link>https://brian.dev/blog/going-overboard-with-wsl-metadata</link>
+    <description>Use a folder from your Windows drive as your $HOME directory in WSL</description>
+    <pubDate>Sat, 10 Mar 2018 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>wsl</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/getting-crazy-with-windows-subsystem-for-linux</guid>
+    <title>Getting Crazy with Windows Subsystem for Linux</title>
+    <link>https://brian.dev/blog/getting-crazy-with-windows-subsystem-for-linux</link>
+    <description>Getting Crazy with Windows Subsystem for Linux</description>
+    <pubDate>Wed, 13 Dec 2017 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>wsl</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/my-cross-platform-dev-setup-on-surface-laptop</guid>
+    <title>My Cross-Platform Dev Setup on Surface Laptop</title>
+    <link>https://brian.dev/blog/my-cross-platform-dev-setup-on-surface-laptop</link>
+    <description>My Cross-Platform Dev Setup on Surface Laptop</description>
+    <pubDate>Fri, 29 Sep 2017 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>development</category><category>linux</category><category>windows</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/gophercon-on-azure</guid>
+    <title>Learn With Me: Moving Gophercon to Azure</title>
+    <link>https://brian.dev/blog/gophercon-on-azure</link>
+    <description>Learn With Me: Moving Gophercon to Azure</description>
+    <pubDate>Mon, 31 Jul 2017 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>go</category><category>azure</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/switchers</guid>
+    <title>Switching - Irony and Operating systems</title>
+    <link>https://brian.dev/blog/switchers</link>
+    <description>Switching - Irony and Operating systems</description>
+    <pubDate>Mon, 07 Nov 2016 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>hacks</category><category>i3</category><category>windows</category><category>linux</category><category>mac</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/errgroup</guid>
+    <title>sync.ErrGroup</title>
+    <link>https://brian.dev/blog/errgroup</link>
+    <description>sync.ErrGroup</description>
+    <pubDate>Mon, 19 Sep 2016 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>go</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/go17</guid>
+    <title>Go 1.7 Released</title>
+    <link>https://brian.dev/blog/go17</link>
+    <description>Go 1.7 Released</description>
+    <pubDate>Mon, 15 Aug 2016 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>go</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/i3-windows</guid>
+    <title>Running i3 Window Manager on Bash For Windows</title>
+    <link>https://brian.dev/blog/i3-windows</link>
+    <description>Running i3 Window Manager on Bash For Windows</description>
+    <pubDate>Sun, 03 Jul 2016 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>windows</category><category>linux</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/career-2-0-go-training-videos-speaking</guid>
+    <title>Career 2.0 - Go Training, Videos, Speaking</title>
+    <link>https://brian.dev/blog/career-2-0-go-training-videos-speaking</link>
+    <description>Career 2.0 - Go Training, Videos, Speaking</description>
+    <pubDate>Sat, 18 Jun 2016 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>speaking</category><category>training</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/old-dogs</guid>
+    <title>Old Dogs, New Tricks, and Cognitive Bias</title>
+    <link>https://brian.dev/blog/old-dogs</link>
+    <description>Old Dogs, New Tricks, and Cognitive Bias</description>
+    <pubDate>Mon, 13 Jun 2016 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>frontend</category><category>javascript</category><category>css</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/new-tricks</guid>
+    <title>New Tricks - notes as I learn modern front-end development</title>
+    <link>https://brian.dev/blog/new-tricks</link>
+    <description>New Tricks - notes as I learn modern front-end development</description>
+    <pubDate>Wed, 04 May 2016 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>frontend</category><category>javascript</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/tastyworms</guid>
+    <title>Tasty Worms</title>
+    <link>https://brian.dev/blog/tastyworms</link>
+    <description>Tasty Worms</description>
+    <pubDate>Sat, 05 Dec 2015 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>dune</category><category>recipes</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/caddy-hugo-encrypt</guid>
+    <title>Caddy and Let&#39;s Encrypt</title>
+    <link>https://brian.dev/blog/caddy-hugo-encrypt</link>
+    <description>Caddy and Let&#39;s Encrypt</description>
+    <pubDate>Wed, 11 Nov 2015 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>open-source</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/open-source-appreciation</guid>
+    <title>Open Source Appreciation</title>
+    <link>https://brian.dev/blog/open-source-appreciation</link>
+    <description>Open Source Appreciation</description>
+    <pubDate>Mon, 11 May 2015 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>open-source</category>
   </item>
 
     </channel>

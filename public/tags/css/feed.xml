@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>brian.dev</title>
+      <link>https://brian.dev/blog</link>
+      <description>A blog created with Next.js and Tailwind.css</description>
+      <language>en-us</language>
+      <managingEditor>address@yoursite.com (Brian Ketelsen)</managingEditor>
+      <webMaster>address@yoursite.com (Brian Ketelsen)</webMaster>
+      <lastBuildDate>Mon, 13 Jun 2016 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://brian.dev/tags/css/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://brian.dev/blog/old-dogs</guid>
+    <title>Old Dogs, New Tricks, and Cognitive Bias</title>
+    <link>https://brian.dev/blog/old-dogs</link>
+    <description>Old Dogs, New Tricks, and Cognitive Bias</description>
+    <pubDate>Mon, 13 Jun 2016 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>frontend</category><category>javascript</category><category>css</category>
+  </item>
+
+    </channel>
+  </rss>

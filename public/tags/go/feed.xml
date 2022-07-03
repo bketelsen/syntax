@@ -1,0 +1,44 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>brian.dev</title>
+      <link>https://brian.dev/blog</link>
+      <description>A blog created with Next.js and Tailwind.css</description>
+      <language>en-us</language>
+      <managingEditor>address@yoursite.com (Brian Ketelsen)</managingEditor>
+      <webMaster>address@yoursite.com (Brian Ketelsen)</webMaster>
+      <lastBuildDate>Mon, 31 Jul 2017 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://brian.dev/tags/go/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://brian.dev/blog/gophercon-on-azure</guid>
+    <title>Learn With Me: Moving Gophercon to Azure</title>
+    <link>https://brian.dev/blog/gophercon-on-azure</link>
+    <description>Learn With Me: Moving Gophercon to Azure</description>
+    <pubDate>Mon, 31 Jul 2017 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>go</category><category>azure</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/errgroup</guid>
+    <title>sync.ErrGroup</title>
+    <link>https://brian.dev/blog/errgroup</link>
+    <description>sync.ErrGroup</description>
+    <pubDate>Mon, 19 Sep 2016 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>go</category>
+  </item>
+
+  <item>
+    <guid>https://brian.dev/blog/go17</guid>
+    <title>Go 1.7 Released</title>
+    <link>https://brian.dev/blog/go17</link>
+    <description>Go 1.7 Released</description>
+    <pubDate>Mon, 15 Aug 2016 00:00:00 GMT</pubDate>
+    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <category>go</category>
+  </item>
+
+    </channel>
+  </rss>
