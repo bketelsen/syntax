@@ -5,6 +5,7 @@ import PageTitle from '@/components/PageTitle'
 import SectionContainer from '@/components/SectionContainer'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
+import { Prose } from '@/components/Prose'
 
 const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/elsewhere/${fileName}`
 const discussUrl = (slug) =>
@@ -83,7 +84,7 @@ export default function AppearanceLayout({ frontMatter, authorDetails, next, pre
               </dd>
             </dl>
             <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:pb-0 xl:col-span-3 xl:row-span-2">
-              <div className="pt-10 pb-8 prose dark:prose-dark max-w-none">{children}</div>
+              <Prose>{children}</Prose>
               {deck && (
                 <div className="pt-10 pb-8 prose dark:prose-dark max-w-none">
                   <Link href={`/decks/${deck}.html`}>View Slides</Link>
@@ -93,8 +94,6 @@ export default function AppearanceLayout({ frontMatter, authorDetails, next, pre
                 <Link href={discussUrl(slug)} rel="noreferrer">
                   {'Discuss on Twitter'}
                 </Link>
-                {` • `}
-                <Link href={editUrl(fileName)}>{'View on GitHub'}</Link>
               </div>
             </div>
             <footer>

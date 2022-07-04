@@ -1,7 +1,6 @@
 import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
-import {Button, ButtonLink} from '@/components/Button'
 import { Hero } from '@/components/Hero';
 import clsx from 'clsx';
 import { useState } from 'react'
