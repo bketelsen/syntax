@@ -5,6 +5,7 @@ import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import clsx from 'clsx';
 import { Hero } from '@/components/Hero';
+import { Icon } from '@/components/Icon'
 
 export default function Blog({posts}) {
   return (
@@ -17,8 +18,8 @@ export default function Blog({posts}) {
         title={"Bytes"}
         text={"I found it so you don't have to."} >
               <div className="pt-4 pl-4">
-          <img src="/static/images/header/zeppelin-g9b03a4ff4_1280.png" className="w-full rounded-lg" />
-      </div>
+              <Icon icon={"theming"} className="hidden w-16 h-16 mx-auto lg:block" />
+              </div>
       </Hero>
     <main className="max-w-[52rem] mx-auto px-4 pb-28 sm:px-6 md:px-8 xl:px-12 lg:max-w-6xl not-prose">
       <div className="relative sm:pb-12 sm:ml-[calc(2rem+1px)] md:ml-[calc(3.5rem+1px)] lg:ml-[max(calc(14.5rem+1px),calc(100%-48rem))]">

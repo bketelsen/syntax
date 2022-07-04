@@ -5,7 +5,7 @@ import footerNavLinks from '@/data/footerNavLinks'
 export default function Footer() {
   return (
     <footer>
-      <div className="flex flex-col items-center mt-16">
+      <div className="flex flex-col items-center mt-10">
         <div className="flex mb-4 space-x-4">
         {footerNavLinks.map((link) => (
             <Link key={link.title} href={link.href} className='font-semibold dark:text-sky-400  dark:prose-a:text-sky-400 prose-a:no-underline shadow-[inset_0_-2px_0_0_var(--tw-prose-background,#fff),inset_0_calc(-1*(var(--tw-prose-underline-size,4px)+2px))_0_0_var(--tw-prose-underline,theme(colors.sky.300))] hover:[--tw-prose-underline-size:6px] dark:[--tw-prose-background:theme(colors.slate.900)] dark:shadow-[inset_0_calc(-1*var(--tw-prose-underline-size,2px))_0_0_var(--tw-prose-underline,theme(colors.sky.800))] dark:hover:[--tw-prose-underline-size:6px]'>

@@ -7,7 +7,6 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { Prose } from '@/components/Prose'
 
-const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/elsewhere/${fileName}`
 const discussUrl = (slug) =>
   `https://mobile.twitter.com/search?q=${encodeURIComponent(
     `${siteMetadata.siteUrl}/elsewhere/${slug}`

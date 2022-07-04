@@ -6,6 +6,7 @@ import clsx from 'clsx';
 import { useState } from 'react'
 import Pagination from '@/components/Pagination'
 import formatDate from '@/lib/utils/formatDate'
+import { Icon } from '@/components/Icon'
 
 export default function AppearanceListLayout({
   posts, title, subtitle, initialDisplayPosts = [], pagination
@@ -27,8 +28,7 @@ export default function AppearanceListLayout({
         text={subtitle}
       >
         <div className="pt-4 pl-4">
-          <img src="/static/images/header/zeppelin-g457073aee_1280.png" className="w-full rounded-lg" />
-        </div>
+        <Icon icon={"installation"} className="hidden w-16 h-16 mx-auto lg:block" />        </div>
       </Hero>
       <div className="max-w-xl pt-6 pb-8 mx-auto space-y-2 md:space-y-5">
 
