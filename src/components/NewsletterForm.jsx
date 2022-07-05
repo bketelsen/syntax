@@ -2,7 +2,7 @@ import { useRef, useState } from 'react'
 
 import siteMetadata from '@/data/siteMetadata'
 
-const NewsletterForm = ({ title = 'Subscribe to the newsletter' }) => {
+const NewsletterForm = ({ title = 'Subscribe to my newsletter' }) => {
   const inputEl = useRef(null)
   const [error, setError] = useState(false)
   const [message, setMessage] = useState('')
@@ -31,34 +31,46 @@ const NewsletterForm = ({ title = 'Subscribe to the newsletter' }) => {
     inputEl.current.value = ''
     setError(false)
     setSubscribed(true)
-    setMessage('Successfully! 🎉 You are now subscribed.')
+    setMessage('Success! 🎉 You are now subscribed.')
   }
 
   return (
     <div>
       <div className="pb-1 text-lg font-semibold text-slate-800 dark:text-slate-100">{title}</div>
-      <form className="flex flex-col sm:flex-row" onSubmit={subscribe}>
-        <div>
-          <label className="sr-only" htmlFor="email-input">
-            Email address
-          </label>
-          <input
-            autoComplete="email"
-            className="px-4 rounded-md w-72 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-sky-600 dark:bg-black"
-            id="email-input"
-            name="email"
-            placeholder={subscribed ? "You're subscribed !  🎉" : 'Enter your email'}
-            ref={inputEl}
-            required
-            type="email"
-            disabled={subscribed}
-          />
+      <form className="flex flex-wrap -mx-2" onSubmit={subscribe}>
+        <div className="px-2 grow-[9999] basis-64 mt-3">
+          <div className="relative group">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+              className="absolute inset-y-0 w-6 h-full pointer-events-none left-3 text-slate-400 group-focus-within:text-sky-500 dark:group-focus-within:text-slate-400"
+            >
+              <path d="M5 7.92C5 6.86 5.865 6 6.931 6h10.138C18.135 6 19 6.86 19 7.92v8.16c0 1.06-.865 1.92-1.931 1.92H6.931A1.926 1.926 0 0 1 5 16.08V7.92Z" />
+              <path d="m6 7 6 5 6-5" />
+            </svg>
+            <label className="sr-only" htmlFor="email-input">
+              Email address
+            </label>
+            <input
+              autoComplete="email"
+              className="block w-full py-2 pl-12 pr-3 leading-5 bg-white border border-transparent rounded-md shadow appearance-none ring-1 ring-slate-900/5 sm:text-sm placeholder:text-slate-400 text-slate-900 focus:outline-none focus:ring-2 focus:ring-sky-500 dark:bg-slate-700/20 dark:ring-slate-200/20 dark:focus:ring-sky-500 dark:text-white" id="email-input"
+              name="email"
+              placeholder={subscribed ? "You're subscribed !  🎉" : 'Enter your email'}
+              ref={inputEl}
+              required
+              type="email"
+              disabled={subscribed}
+            />
+          </div>
         </div>
-        <div className="flex w-full mt-2 rounded-md shadow-sm sm:mt-0 sm:ml-3">
+        <div className="flex px-2 mt-3 grow">
           <button
-            className={`w-full rounded-md bg-sky-500 py-2 px-4 font-medium text-white sm:py-0 ${
-              subscribed ? 'cursor-default' : 'hover:bg-sky-700 dark:hover:bg-sky-400'
-            } focus:outline-none focus:ring-2 focus:ring-sky-600 focus:ring-offset-2 dark:ring-offset-black`}
+            className="flex-auto px-3 py-2 text-sm font-semibold text-white border-transparent rounded-md shadow bg-sky-500 border-y hover:bg-sky-600 dark:hover:bg-sky-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-300 dark:focus:ring-offset-slate-900 dark:focus:ring-sky-700"
             type="submit"
             disabled={subscribed}
           >
@@ -77,7 +89,7 @@ export default NewsletterForm
 
 export const BlogNewsletterForm = ({ title }) => (
   <div className="flex items-center justify-center rounded-lg">
-    <div className="p-6 rounded-xl bg-slate-100 dark:bg-slate-800 sm:px-14 sm:py-8">
+    <div className="p-6 border group border-slate-200 dark:border-slate-800 rounded-xl sm:px-14 sm:py-8">
       <NewsletterForm title={title} />
     </div>
   </div>

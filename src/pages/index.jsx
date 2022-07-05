@@ -6,7 +6,8 @@ import SectionContainer from '@/components/SectionContainer';
 import { Hero } from '@/components/Hero';
 import siteMetadata from '@/data/siteMetadata'
 import Image from '@/components/Image';
-
+import brian from '@/images/brian.jpg'
+import { BlogNewsletterForm } from '@/components/NewsletterForm';
 
 export default function Blog({ posts }) {
   return (
@@ -18,7 +19,7 @@ export default function Blog({ posts }) {
       <Hero
         title={siteMetadata.heroTitle}
         text={siteMetadata.heroText}  >
-        <Image src="/static/images/header/skull.png" width={425} height={515} alt="" className= "w-full rounded-lg" />
+        <Image src={brian} width={800} height={534} alt="" className= "w-full rounded-lg" />
       </Hero>
 
       <SectionContainer>
@@ -35,6 +36,9 @@ export default function Blog({ posts }) {
             title="Publications" icon="plugins" href="/publications" description="Books and other publications."
           />
         </LinkGrid>
+      </SectionContainer>
+      <SectionContainer>
+      <BlogNewsletterForm />
       </SectionContainer>
 
     </>
