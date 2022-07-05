@@ -20,4 +20,3 @@ I've worked in a lot of interesting industries from Consumer Credit to Healthcar
 I love to teach because I'm always learning new things. Developer Relations also gives me the freedom to experiment with new and interesting things every day.
 
 My most exciting moment in Open Source came when I got a letter of thanks from the JPL at NASA for a library I wrote. They used it on one of the Rover missions.
-

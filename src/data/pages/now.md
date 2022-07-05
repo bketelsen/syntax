@@ -27,4 +27,3 @@ I still hate Florida, but nearly everybody I love is here. So I'm still here, I 
 ## Encore API
 
 I'm powering my "Personal API" with encore. This has really opened up so many possibilites. I have micro-service style APIs for things like the blog, twitter, my email newsletter, a URL shortener and then some fun composite services that do things like auto-tweet new posts or send email notifications to subscribers of the blog for new articles. I'm just getting started, and I'm expecting that this will evolve rapidly into a really cool hub for all my digital world.
-
