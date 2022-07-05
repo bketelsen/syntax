@@ -14,7 +14,7 @@ export default function Blog({ posts }) {
     <>
       <Head>
         <title>Brian Ketelsen</title>
-        <meta name="description" content="meta description" />
+        <meta name="description" content={siteMetadata.description} />
       </Head>
       <Hero
         title={siteMetadata.heroTitle}

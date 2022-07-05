@@ -6,13 +6,14 @@ import formatDate from '@/lib/utils/formatDate'
 import clsx from 'clsx';
 import { Hero } from '@/components/Hero';
 import { Icon } from '@/components/Icon'
+import siteMetadata from '@/data/siteMetadata'
 
 export default function Blog({posts}) {
   return (
     <>
     <Head>
     <title>Brian Ketelsen</title>
-   <meta name="description" content="meta description" />
+    <meta name="description" content={siteMetadata.description} />
       </Head>
       <Hero
         title={"Bytes"}
