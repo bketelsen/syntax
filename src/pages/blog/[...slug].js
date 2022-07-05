@@ -3,7 +3,6 @@ import PageTitle from '@/components/PageTitle'
 import generateRss from '@/lib/generate-rss'
 import { MDXLayoutRenderer } from '@/components/MDXComponents'
 import { formatSlug, getAllFilesFrontMatter, getFileBySlug, getFiles } from '@/lib/mdx'
-import useOpenGraphImage from '@/lib/utils/use-open-graph-image'
 import { image } from '@/data/siteMetadata'
 
 const DEFAULT_LAYOUT = 'PostLayout'
@@ -44,8 +43,6 @@ export async function getStaticProps({ params }) {
 
 export default function Blog({ post, authorDetails, prev, next }) {
   const { mdxSource, toc, frontMatter } = post
-  const { imageURL } = useOpenGraphImage(); // <- This custom hook here!
-  console.log(imageURL)
   return (
     <>
       {frontMatter.draft !== true ? (
