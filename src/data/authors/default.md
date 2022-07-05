@@ -2,14 +2,14 @@
 name: Brian Ketelsen
 avatar: /static/images/logo.png
 occupation: Cloud Developer Advocate
-company: Microsoft/Azure
+company: Amazon/aws
 email: mail@bjk.fyi
 twitter: https://twitter.com/bketelsen
 linkedin: https://www.linkedin.com/bketelsen
 github: https://github.com/bketelsen
 ---
 
-I'm a cloud developer advocate at Microsoft Azure. I love learning and experimenting
+I'm a developer advocate at AWS. I love learning and experimenting
 and you'll always find me trying to connect things that weren't previously connected
 or build things that haven't been built.
 

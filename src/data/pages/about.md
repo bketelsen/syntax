@@ -6,33 +6,18 @@ draft: false
 summary: Example of a markdown file with code blocks and syntax highlighting
 ---
 
-A sample post with markdown.
+Howdy! Thanks for stopping by. I'm Brian Ketelsen, and I've been doing technology things since [acoustic modem couplers](https://en.wikipedia.org/wiki/Acoustic_coupler) were a thing. I love Open Source and exploring different programming languages. Some highlights about me and my activities:
 
-## Inline Highlighting
+* Army Veteran, Bradley Fighting Vehicle Gunner, Infantry, 1st Armored Division
+* Father of four with 19 years difference between oldest and youngest child
+* Co-founded [GopherCon](https://gophercon.com/), the largest conference for Go developers
+* Co-authored [_Go In Action_](https://www.amazon.com/Go-Action-William-Kennedy/dp/1617291781) for Manning Publishing
+* Along with Erik St. Martin, I wrote Skynet and SkyDNS, which was eventually morphed into the DNS service discovery that powers Kubernetes.
+* Contributor to virtual kubelet and Krustlet
 
-Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
+I've worked in a lot of interesting industries from Consumer Credit to Healthcare, in jobs ranging from DBA to Chief Information Officer. I'm currently at Amazon Web Services in Developer Relations.
 
-## Code Blocks
+I love to teach because I'm always learning new things. Developer Relations also gives me the freedom to experiment with new and interesting things every day.
 
-Some Javascript code
+My most exciting moment in Open Source came when I got a letter of thanks from the JPL at NASA for a library I wrote. They used it on one of the Rover missions.
 
-```javascript
-var num1, num2, sum
-num1 = prompt('Enter first number')
-num2 = prompt('Enter second number')
-sum = parseInt(num1) + parseInt(num2) // "+" means "add"
-alert('Sum = ' + sum) // "+" means combine into a string
-```
-
-Some Python code 🐍
-
-```python
-def fib():
-    a, b = 0, 1
-    while True:            # First iteration:
-        yield a            # yield 0 to start with and then
-        a, b = b, a + b    # a will now be 1, and b will also be 1, (0 + 1)
-
-for index, fibonacci_number in zip(range(10), fib()):
-     print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
-```

@@ -33,7 +33,7 @@ export default function Blog({ posts }) {
             title="Bytes" icon="theming" href="/bytes" description="Quick byte-sized links to interesting things."
           />
           <LinkGrid.Link
-            title="Publications" icon="plugins" href="/publications" description="Books and other publications."
+            title="Publications" icon="plugins" href="/" description="Books and other publications. *coming soon*"
           />
         </LinkGrid>
       </SectionContainer>
