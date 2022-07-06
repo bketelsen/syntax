@@ -38,7 +38,7 @@ export default function Blog({ post, authorDetails, prev, next }) {
 
   return (
     <>
-      <PageSEO title={`${frontMatter.title}`} description={frontMatter.summary} slug={frontMatter.slug} />
+      <PageSEO title={`${frontMatter.title}`} description={frontMatter.summary} slug={post.slug} />
       {frontMatter.draft !== true ? (
         <MDXLayoutRenderer
           layout={frontMatter.layout || DEFAULT_LAYOUT}
