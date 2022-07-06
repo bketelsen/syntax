@@ -7,7 +7,7 @@ import { getAllTags } from '@/lib/tags'
 import kebabCase from '@/lib/utils/kebabCase'
 import fs from 'fs'
 import path from 'path'
-
+import { generateOgImage } from '@/lib/generate-og-image'
 const root = process.cwd()
 
 export async function getStaticPaths() {
@@ -28,7 +28,7 @@ export async function getStaticProps({ params }) {
   const filteredPosts = allPosts.filter(
     (post) => post.draft !== true && post.tags.map((t) => kebabCase(t)).includes(params.tag)
   )
-
+  await generateOgImage({ folder: "tags", slug: params.tag, title: "#"+params.tag });
   // rss
   const rss = generateRss(filteredPosts, `tags/${params.tag}/feed.xml`)
   const rssPath = path.join(root, 'public', 'tags', params.tag)

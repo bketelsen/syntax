@@ -2,6 +2,7 @@ import PageTitle from '@/components/PageTitle'
 import { MDXLayoutRenderer } from '@/components/MDXComponents'
 import { formatSlug, getAllFilesFrontMatter, getFileBySlug, getFiles } from '@/lib/mdx'
 import { PageSEO } from '@/components/SEO'
+import { generateOgImage } from '@/lib/generate-og-image'
 const DEFAULT_LAYOUT = 'Page'
 
 export async function getStaticPaths() {
@@ -28,7 +29,7 @@ export async function getStaticProps({ params }) {
     return authorResults.frontMatter
   })
   const authorDetails = await Promise.all(authorPromise)
-
+  await generateOgImage({ folder: "pages", slug: post.frontMatter.slug, title: post.frontMatter.title });
 
   return { props: { post, authorDetails, prev, next } }
 }

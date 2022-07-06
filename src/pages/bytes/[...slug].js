@@ -30,6 +30,7 @@ export async function getStaticProps({ params }) {
   const authorDetails = await Promise.all(authorPromise)
 
 
+
   return { props: { post, authorDetails, prev, next } }
 }
 

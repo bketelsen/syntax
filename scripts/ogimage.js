@@ -8,11 +8,12 @@ const width = 1200
 const height = 630
 registerFont('./assets/FiraSans-Light.ttf', { family: 'Fira Sans' })
 
-const canvas = createCanvas(width, height)
-const context = canvas.getContext('2d')
-const base = './assets/og-standard.png'
+
 
 async function ls(p) {
+  const canvas = createCanvas(width, height)
+  const context = canvas.getContext('2d')
+  const base = './assets/og-standard.png'
   const dir = await fs.promises.opendir(p)
   for await (const dirent of dir) {
     if (dirent.isFile()) {
@@ -21,40 +22,48 @@ async function ls(p) {
       const { data } = matter(source)
       console.log(data.title)
       console.log(data.images)
-      var image
+      var img
       if (data.images) {
         if (data.images.length > 0) {
-          image = './public' +data.images[0]
+          img = './public' + data.images[0]
         } else {
-          image = base
+          img = base
         }
       } else {
-        image = base
+        img = base
       }
-      console.log(data.title, image)
+      console.log(data.title, img)
       const hashTags = data.tags.map((t) => '#' + t)
       const spaceTags = hashTags.join(' ')
       console.log(spaceTags)
 
-      loadImage(image).then((image) => {
-        context.drawImage(image, 0, 0)
+      loadImage(img).then((image) => {
+        context.drawImage(image, 0, 0, 1200, 630)
         context.font = 'bold 50pt "Fira Sans"'
         context.textAlign = 'center'
         context.textBaseline = 'top'
-        context.fillStyle = '#1f628e'
+        context.fillStyle = '#000'
 
+        context.beginPath();
+        context.moveTo(0,0);
+        context.lineTo(650,0);
+        context.lineTo(0,1800);
+        context.fill();
+        //context.save()
         const text = data.title
+        //context.globalAlpha = 0.4
 
         // background box for title
-        context.fillRect(200 - 10, 160 - 5, 820, 320)
+        //context.fillRect(200 - 10, 160 - 5, 820, 320)
+        //context.restore()
         context.fillStyle = '#fff'
-        context.textAlign = 'center'
+        context.textAlign = 'left'
         context.textBaseline = 'middle'
         // draw title
         const fontSizeUsed = drawMultilineText(context, text, {
           rect: {
-            x: 600,
-            y: 160,
+            x: 0,
+            y: 0,
             width: 800,
             height: 300,
           },
@@ -64,6 +73,11 @@ async function ls(p) {
           minFontSize: 70,
           maxFontSize: 130,
         })
+        context.save()
+        context.globalAlpha = 0.4
+        context.fillStyle = '#000'
+        context.fillRect(200 - 10, 480 - 5, 820, 120)
+        context.restore()
         context.fillStyle = '#fff'
         context.textAlign = 'center'
         context.textBaseline = 'alphabetic'
@@ -176,6 +190,10 @@ function drawMultilineText(ctx, text, opts) {
 
   lines = lastFittingLines // assigning last fitting values (issue 3)
   ctx.font = lastFittingFont
+  ctx.shadowColor = "black";
+  ctx.shadowBlur = 10;
+  ctx.shadowOffsetX = 3;
+  ctx.shadowOffsetY = 3;
   if (opts.verbose) opts.logFunction('Font used: ' + ctx.font)
   const offset = opts.rect.y - lastFittingLineHeight / 2 + (opts.rect.height - lastFittingY) / 2 // modifying calculation (issue 2)
   // Fill or stroke

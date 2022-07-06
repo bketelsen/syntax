@@ -32,8 +32,8 @@ export const PageSEO = ({ title, description, slug }) => {
   var ogImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner
   var twImageUrl = siteMetadata.siteUrl + siteMetadata.socialBanner
   if (slug) {
-     ogImageUrl = `${siteMetadata.siteUrl}/static/images/og/pages/${slug}.png`
-     twImageUrl = `${siteMetadata.siteUrl}/static/images/og/pages/${slug}.png`
+     ogImageUrl = `${siteMetadata.siteUrl}/og/pages/${slug}.png`
+     twImageUrl = `${siteMetadata.siteUrl}/og/pages/${slug}.png`
   }
 
   return (
@@ -137,7 +137,7 @@ export const BlogSEO = ({
     description: summary,
   }
 
-  const twImageUrl = `${siteMetadata.siteUrl}/static/images/og/blog/${slug}.png`
+  const twImageUrl = `${siteMetadata.siteUrl}/og/blog/${slug}.png`
 
   return (
     <>
@@ -227,7 +227,7 @@ export const ElsewhereSEO = ({
     description: summary,
   }
 
-  const twImageUrl = `${siteMetadata.siteUrl}/static/images/og/elsewhere/${slug}.png`
+  const twImageUrl = `${siteMetadata.siteUrl}/og/elsewhere/${slug}.png`
 
   return (
     <>

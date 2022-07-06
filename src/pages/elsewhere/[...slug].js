@@ -3,6 +3,7 @@ import PageTitle from '@/components/PageTitle'
 import generateRss from '@/lib/generate-rss'
 import { MDXLayoutRenderer } from '@/components/MDXComponents'
 import { formatSlug, getAllFilesFrontMatter, getFileBySlug, getFiles } from '@/lib/mdx'
+import { generateOgImage } from '@/lib/generate-og-image'
 
 const DEFAULT_LAYOUT = 'AppearanceLayout'
 
@@ -30,7 +31,7 @@ export async function getStaticProps({ params }) {
     return authorResults.frontMatter
   })
   const authorDetails = await Promise.all(authorPromise)
-
+  await generateOgImage({ folder: "elsewhere", slug: post.frontMatter.slug, title: post.frontMatter.title });
   // rss
   const rss = generateRss(allPosts, null, 'elsewhere')
   fs.writeFileSync('./public/elsewhere/feed.xml', rss)
