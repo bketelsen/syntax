@@ -1,9 +1,9 @@
 ---
 title: Now
 date: '2016-03-08'
-tags: ['markdown', 'code', 'features']
+tags: ['now']
 draft: false
-summary: Example of a markdown file with code blocks and syntax highlighting
+summary: This is what I'm up to right now.
 ---
 
 This is a [now](https://nownownow.com/about) page. If you have your own blog, [you should make one too](https://nownownow.com/about).
