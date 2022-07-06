@@ -31,7 +31,7 @@ export async function getStaticProps({ params }) {
     return authorResults.frontMatter
   })
   const authorDetails = await Promise.all(authorPromise)
-  await generateOgImage({ folder: "elsewhere", slug: post.frontMatter.slug, title: post.frontMatter.title });
+  //await generateOgImage({ folder: "elsewhere", slug: post.frontMatter.slug, title: post.frontMatter.title });
   // rss
   const rss = generateRss(allPosts, null, 'elsewhere')
   fs.writeFileSync('./public/elsewhere/feed.xml', rss)

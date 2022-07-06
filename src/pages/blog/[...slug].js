@@ -4,7 +4,7 @@ import generateRss from '@/lib/generate-rss'
 import { MDXLayoutRenderer } from '@/components/MDXComponents'
 import { formatSlug, getAllFilesFrontMatter, getFileBySlug, getFiles } from '@/lib/mdx'
 import { image } from '@/data/siteMetadata'
-import { generateOgImage } from '@/lib/generate-og-image'
+//import { generateOgImage } from '@/lib/generate-og-image'
 
 const DEFAULT_LAYOUT = 'PostLayout'
 
@@ -32,7 +32,7 @@ export async function getStaticProps({ params }) {
     return authorResults.frontMatter
   })
   const authorDetails = await Promise.all(authorPromise)
-  await generateOgImage({ folder: "blog", slug: post.frontMatter.slug, title: post.frontMatter.title });
+  //await generateOgImage({ folder: "blog", slug: post.frontMatter.slug, title: post.frontMatter.title });
 
   // rss
   if (allPosts.length > 0) {

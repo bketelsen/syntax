@@ -29,7 +29,7 @@ export async function getStaticProps({ params }) {
     return authorResults.frontMatter
   })
   const authorDetails = await Promise.all(authorPromise)
-  await generateOgImage({ folder: "pages", slug: post.frontMatter.slug, title: post.frontMatter.title });
+  //await generateOgImage({ folder: "pages", slug: post.frontMatter.slug, title: post.frontMatter.title });
 
   return { props: { post, authorDetails, prev, next } }
 }
