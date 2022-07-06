@@ -20,11 +20,23 @@ async function ls(p) {
       const source = fs.readFileSync(file, 'utf8')
       const { data } = matter(source)
       console.log(data.title)
+      console.log(data.images)
+      var image
+      if (data.images) {
+        if (data.images.length > 0) {
+          image = './public' +data.images[0]
+        } else {
+          image = base
+        }
+      } else {
+        image = base
+      }
+      console.log(data.title, image)
       const hashTags = data.tags.map((t) => '#' + t)
       const spaceTags = hashTags.join(' ')
       console.log(spaceTags)
 
-      loadImage(base).then((image) => {
+      loadImage(image).then((image) => {
         context.drawImage(image, 0, 0)
         context.font = 'bold 50pt "Fira Sans"'
         context.textAlign = 'center'

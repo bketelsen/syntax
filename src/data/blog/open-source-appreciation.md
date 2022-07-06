@@ -1,6 +1,6 @@
 ---
 date: '2015-05-11'
-images: ['/static/images/open-source-appreciation/william-white-TZCppMjaOHU-unsplash.jpg']
+images: ['/static/images/william-white-TZCppMjaOHU-unsplash.jpg']
 tags: ['open-source']
 title: 'Open Source Appreciation'
 summary: 'Open Source Appreciation'
