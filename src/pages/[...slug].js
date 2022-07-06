@@ -2,7 +2,7 @@ import PageTitle from '@/components/PageTitle'
 import { MDXLayoutRenderer } from '@/components/MDXComponents'
 import { formatSlug, getAllFilesFrontMatter, getFileBySlug, getFiles } from '@/lib/mdx'
 import { PageSEO } from '@/components/SEO'
-import { generateOgImage } from '@/lib/generate-og-image'
+//import { generateOgImage } from '@/lib/generate-og-image'
 const DEFAULT_LAYOUT = 'Page'
 
 export async function getStaticPaths() {

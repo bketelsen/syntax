@@ -7,7 +7,7 @@ import { getAllTags } from '@/lib/tags'
 import kebabCase from '@/lib/utils/kebabCase'
 import fs from 'fs'
 import path from 'path'
-import { generateOgImage } from '@/lib/generate-og-image'
+//import { generateOgImage } from '@/lib/generate-og-image'
 const root = process.cwd()
 
 export async function getStaticPaths() {
