@@ -2,31 +2,31 @@
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
       <title>brian.dev</title>
-      <link>https://brian.dev/blog</link>
-      <description>A blog created with Next.js and Tailwind.css</description>
+      <link>https://syntax-six.vercel.app/blog</link>
+      <description>Brian Ketelsen is a developer advocate, keynote speaker, author, and open source practitioner.</description>
       <language>en-us</language>
-      <managingEditor>address@yoursite.com (Brian Ketelsen)</managingEditor>
-      <webMaster>address@yoursite.com (Brian Ketelsen)</webMaster>
+      <managingEditor>mail@bjk.fyi (Brian Ketelsen)</managingEditor>
+      <webMaster>mail@bjk.fyi (Brian Ketelsen)</webMaster>
       <lastBuildDate>Sat, 10 Mar 2018 00:00:00 GMT</lastBuildDate>
-      <atom:link href="https://brian.dev/tags/wsl/feed.xml" rel="self" type="application/rss+xml"/>
+      <atom:link href="https://syntax-six.vercel.app/tags/wsl/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://brian.dev/blog/going-overboard-with-wsl-metadata</guid>
+    <guid>https://syntax-six.vercel.app/blog/going-overboard-with-wsl-metadata</guid>
     <title>Going Overboard with WSL metadata</title>
-    <link>https://brian.dev/blog/going-overboard-with-wsl-metadata</link>
+    <link>https://syntax-six.vercel.app/blog/going-overboard-with-wsl-metadata</link>
     <description>Use a folder from your Windows drive as your $HOME directory in WSL</description>
     <pubDate>Sat, 10 Mar 2018 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <author>mail@bjk.fyi (Brian Ketelsen)</author>
     <category>wsl</category>
   </item>
 
   <item>
-    <guid>https://brian.dev/blog/getting-crazy-with-windows-subsystem-for-linux</guid>
+    <guid>https://syntax-six.vercel.app/blog/getting-crazy-with-windows-subsystem-for-linux</guid>
     <title>Getting Crazy with Windows Subsystem for Linux</title>
-    <link>https://brian.dev/blog/getting-crazy-with-windows-subsystem-for-linux</link>
+    <link>https://syntax-six.vercel.app/blog/getting-crazy-with-windows-subsystem-for-linux</link>
     <description>Getting Crazy with Windows Subsystem for Linux</description>
     <pubDate>Wed, 13 Dec 2017 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <author>mail@bjk.fyi (Brian Ketelsen)</author>
     <category>wsl</category>
   </item>
 

@@ -2,61 +2,61 @@
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
       <title>brian.dev</title>
-      <link>https://brian.dev/blog</link>
-      <description>A blog created with Next.js and Tailwind.css</description>
+      <link>https://syntax-six.vercel.app/blog</link>
+      <description>Brian Ketelsen is a developer advocate, keynote speaker, author, and open source practitioner.</description>
       <language>en-us</language>
-      <managingEditor>address@yoursite.com (Brian Ketelsen)</managingEditor>
-      <webMaster>address@yoursite.com (Brian Ketelsen)</webMaster>
+      <managingEditor>mail@bjk.fyi (Brian Ketelsen)</managingEditor>
+      <webMaster>mail@bjk.fyi (Brian Ketelsen)</webMaster>
       <lastBuildDate>Tue, 03 Mar 2020 00:00:00 GMT</lastBuildDate>
-      <atom:link href="https://brian.dev/tags/windows/feed.xml" rel="self" type="application/rss+xml"/>
+      <atom:link href="https://syntax-six.vercel.app/tags/windows/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://brian.dev/blog/ssh-to-wsl2</guid>
+    <guid>https://syntax-six.vercel.app/blog/ssh-to-wsl2</guid>
     <title>Remote SSH Connections to WSL2</title>
-    <link>https://brian.dev/blog/ssh-to-wsl2</link>
+    <link>https://syntax-six.vercel.app/blog/ssh-to-wsl2</link>
     <description>A Series on Using Windows for Open Source Development</description>
     <pubDate>Tue, 03 Mar 2020 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <author>mail@bjk.fyi (Brian Ketelsen)</author>
     <category>windows</category><category>linux</category><category>open source</category><category>30-daywslchallenge</category>
   </item>
 
   <item>
-    <guid>https://brian.dev/blog/win-the-dev-box</guid>
+    <guid>https://syntax-six.vercel.app/blog/win-the-dev-box</guid>
     <title>Windows for Open Source Development</title>
-    <link>https://brian.dev/blog/win-the-dev-box</link>
+    <link>https://syntax-six.vercel.app/blog/win-the-dev-box</link>
     <description>A Series on Using Windows for Open Source Development</description>
     <pubDate>Mon, 24 Feb 2020 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <author>mail@bjk.fyi (Brian Ketelsen)</author>
     <category>windows</category><category>linux</category><category>open source</category><category>30-daywslchallenge</category>
   </item>
 
   <item>
-    <guid>https://brian.dev/blog/my-cross-platform-dev-setup-on-surface-laptop</guid>
+    <guid>https://syntax-six.vercel.app/blog/my-cross-platform-dev-setup-on-surface-laptop</guid>
     <title>My Cross-Platform Dev Setup on Surface Laptop</title>
-    <link>https://brian.dev/blog/my-cross-platform-dev-setup-on-surface-laptop</link>
+    <link>https://syntax-six.vercel.app/blog/my-cross-platform-dev-setup-on-surface-laptop</link>
     <description>My Cross-Platform Dev Setup on Surface Laptop</description>
     <pubDate>Fri, 29 Sep 2017 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <author>mail@bjk.fyi (Brian Ketelsen)</author>
     <category>development</category><category>linux</category><category>windows</category>
   </item>
 
   <item>
-    <guid>https://brian.dev/blog/switchers</guid>
+    <guid>https://syntax-six.vercel.app/blog/switchers</guid>
     <title>Switching - Irony and Operating systems</title>
-    <link>https://brian.dev/blog/switchers</link>
+    <link>https://syntax-six.vercel.app/blog/switchers</link>
     <description>Switching - Irony and Operating systems</description>
     <pubDate>Mon, 07 Nov 2016 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <author>mail@bjk.fyi (Brian Ketelsen)</author>
     <category>hacks</category><category>i3</category><category>windows</category><category>linux</category><category>mac</category>
   </item>
 
   <item>
-    <guid>https://brian.dev/blog/i3-windows</guid>
+    <guid>https://syntax-six.vercel.app/blog/i3-windows</guid>
     <title>Running i3 Window Manager on Bash For Windows</title>
-    <link>https://brian.dev/blog/i3-windows</link>
+    <link>https://syntax-six.vercel.app/blog/i3-windows</link>
     <description>Running i3 Window Manager on Bash For Windows</description>
     <pubDate>Sun, 03 Jul 2016 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <author>mail@bjk.fyi (Brian Ketelsen)</author>
     <category>windows</category><category>linux</category>
   </item>
 

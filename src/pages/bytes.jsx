@@ -13,10 +13,10 @@ export default function Blog({posts}) {
     <>
     <Head>
     <title>Brian Ketelsen</title>
-        <meta name="description" content={siteMetadata.description} />
-        <PageSEO title={`Brian Ketelsen - Bytes`} description="Quick Bytes of Information" />
 
       </Head>
+      <PageSEO title={`Brian Ketelsen - Bytes`} description="Quick Bytes of Information" />
+
       <Hero
         title={"Bytes"}
         text={"I found it so you don't have to."} >

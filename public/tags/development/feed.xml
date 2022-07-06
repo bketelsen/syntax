@@ -2,31 +2,31 @@
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
       <title>brian.dev</title>
-      <link>https://brian.dev/blog</link>
-      <description>A blog created with Next.js and Tailwind.css</description>
+      <link>https://syntax-six.vercel.app/blog</link>
+      <description>Brian Ketelsen is a developer advocate, keynote speaker, author, and open source practitioner.</description>
       <language>en-us</language>
-      <managingEditor>address@yoursite.com (Brian Ketelsen)</managingEditor>
-      <webMaster>address@yoursite.com (Brian Ketelsen)</webMaster>
+      <managingEditor>mail@bjk.fyi (Brian Ketelsen)</managingEditor>
+      <webMaster>mail@bjk.fyi (Brian Ketelsen)</webMaster>
       <lastBuildDate>Wed, 05 Dec 2018 00:00:00 GMT</lastBuildDate>
-      <atom:link href="https://brian.dev/tags/development/feed.xml" rel="self" type="application/rss+xml"/>
+      <atom:link href="https://syntax-six.vercel.app/tags/development/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://brian.dev/blog/vscode-remote</guid>
+    <guid>https://syntax-six.vercel.app/blog/vscode-remote</guid>
     <title>VS Code Remote Development</title>
-    <link>https://brian.dev/blog/vscode-remote</link>
+    <link>https://syntax-six.vercel.app/blog/vscode-remote</link>
     <description>Use VS Code against a remote computer or container</description>
     <pubDate>Wed, 05 Dec 2018 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <author>mail@bjk.fyi (Brian Ketelsen)</author>
     <category>vscode</category><category>development</category>
   </item>
 
   <item>
-    <guid>https://brian.dev/blog/my-cross-platform-dev-setup-on-surface-laptop</guid>
+    <guid>https://syntax-six.vercel.app/blog/my-cross-platform-dev-setup-on-surface-laptop</guid>
     <title>My Cross-Platform Dev Setup on Surface Laptop</title>
-    <link>https://brian.dev/blog/my-cross-platform-dev-setup-on-surface-laptop</link>
+    <link>https://syntax-six.vercel.app/blog/my-cross-platform-dev-setup-on-surface-laptop</link>
     <description>My Cross-Platform Dev Setup on Surface Laptop</description>
     <pubDate>Fri, 29 Sep 2017 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <author>mail@bjk.fyi (Brian Ketelsen)</author>
     <category>development</category><category>linux</category><category>windows</category>
   </item>
 

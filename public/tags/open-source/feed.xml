@@ -2,71 +2,71 @@
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
       <title>brian.dev</title>
-      <link>https://brian.dev/blog</link>
-      <description>A blog created with Next.js and Tailwind.css</description>
+      <link>https://syntax-six.vercel.app/blog</link>
+      <description>Brian Ketelsen is a developer advocate, keynote speaker, author, and open source practitioner.</description>
       <language>en-us</language>
-      <managingEditor>address@yoursite.com (Brian Ketelsen)</managingEditor>
-      <webMaster>address@yoursite.com (Brian Ketelsen)</webMaster>
+      <managingEditor>mail@bjk.fyi (Brian Ketelsen)</managingEditor>
+      <webMaster>mail@bjk.fyi (Brian Ketelsen)</webMaster>
       <lastBuildDate>Fri, 14 Aug 2020 00:00:00 GMT</lastBuildDate>
-      <atom:link href="https://brian.dev/tags/open-source/feed.xml" rel="self" type="application/rss+xml"/>
+      <atom:link href="https://syntax-six.vercel.app/tags/open-source/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://brian.dev/blog/install-func</guid>
+    <guid>https://syntax-six.vercel.app/blog/install-func</guid>
     <title>Bash Helpers for Quick Installs</title>
-    <link>https://brian.dev/blog/install-func</link>
+    <link>https://syntax-six.vercel.app/blog/install-func</link>
     <description>A quick helper function and directory layout for repeatable software installs.</description>
     <pubDate>Fri, 14 Aug 2020 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <author>mail@bjk.fyi (Brian Ketelsen)</author>
     <category>linux</category><category>open source</category><category>terminal</category>
   </item>
 
   <item>
-    <guid>https://brian.dev/blog/ssh-to-wsl2</guid>
+    <guid>https://syntax-six.vercel.app/blog/ssh-to-wsl2</guid>
     <title>Remote SSH Connections to WSL2</title>
-    <link>https://brian.dev/blog/ssh-to-wsl2</link>
+    <link>https://syntax-six.vercel.app/blog/ssh-to-wsl2</link>
     <description>A Series on Using Windows for Open Source Development</description>
     <pubDate>Tue, 03 Mar 2020 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <author>mail@bjk.fyi (Brian Ketelsen)</author>
     <category>windows</category><category>linux</category><category>open source</category><category>30-daywslchallenge</category>
   </item>
 
   <item>
-    <guid>https://brian.dev/blog/hello-wascc</guid>
+    <guid>https://syntax-six.vercel.app/blog/hello-wascc</guid>
     <title>Hello waSCC</title>
-    <link>https://brian.dev/blog/hello-wascc</link>
+    <link>https://syntax-six.vercel.app/blog/hello-wascc</link>
     <description>Web Assembly on the Server</description>
     <pubDate>Tue, 25 Feb 2020 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <author>mail@bjk.fyi (Brian Ketelsen)</author>
     <category>open source</category><category>30-daywslchallenge</category><category>wasm</category>
   </item>
 
   <item>
-    <guid>https://brian.dev/blog/win-the-dev-box</guid>
+    <guid>https://syntax-six.vercel.app/blog/win-the-dev-box</guid>
     <title>Windows for Open Source Development</title>
-    <link>https://brian.dev/blog/win-the-dev-box</link>
+    <link>https://syntax-six.vercel.app/blog/win-the-dev-box</link>
     <description>A Series on Using Windows for Open Source Development</description>
     <pubDate>Mon, 24 Feb 2020 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <author>mail@bjk.fyi (Brian Ketelsen)</author>
     <category>windows</category><category>linux</category><category>open source</category><category>30-daywslchallenge</category>
   </item>
 
   <item>
-    <guid>https://brian.dev/blog/caddy-hugo-encrypt</guid>
+    <guid>https://syntax-six.vercel.app/blog/caddy-hugo-encrypt</guid>
     <title>Caddy and Let&#39;s Encrypt</title>
-    <link>https://brian.dev/blog/caddy-hugo-encrypt</link>
+    <link>https://syntax-six.vercel.app/blog/caddy-hugo-encrypt</link>
     <description>Caddy and Let&#39;s Encrypt</description>
     <pubDate>Wed, 11 Nov 2015 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <author>mail@bjk.fyi (Brian Ketelsen)</author>
     <category>open-source</category>
   </item>
 
   <item>
-    <guid>https://brian.dev/blog/open-source-appreciation</guid>
+    <guid>https://syntax-six.vercel.app/blog/open-source-appreciation</guid>
     <title>Open Source Appreciation</title>
-    <link>https://brian.dev/blog/open-source-appreciation</link>
+    <link>https://syntax-six.vercel.app/blog/open-source-appreciation</link>
     <description>Open Source Appreciation</description>
     <pubDate>Mon, 11 May 2015 00:00:00 GMT</pubDate>
-    <author>address@yoursite.com (Brian Ketelsen)</author>
+    <author>mail@bjk.fyi (Brian Ketelsen)</author>
     <category>open-source</category>
   </item>
 
