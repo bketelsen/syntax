@@ -28,7 +28,7 @@ const CommonSEO = ({ title, description, ogType, ogImage, twImage }) => {
   )
 }
 
-export const PageSEO = ({ title, description }) => {
+export const PageSEO = ({ title, description, slug }) => {
   const ogImageUrl = `${siteMetadata.siteUrl}/static/images/og/pages/${slug}.png`
   const twImageUrl = `${siteMetadata.siteUrl}/static/images/og/pages/${slug}.png`
   return (
