@@ -1,7 +1,7 @@
 import PageTitle from '@/components/PageTitle'
 import { MDXLayoutRenderer } from '@/components/MDXComponents'
 import { formatSlug, getAllFilesFrontMatter, getFileBySlug, getFiles } from '@/lib/mdx'
-
+import { PageSEO } from '@/components/SEO'
 const DEFAULT_LAYOUT = 'Page'
 
 export async function getStaticPaths() {
@@ -38,6 +38,7 @@ export default function Blog({ post, authorDetails, prev, next }) {
 
   return (
     <>
+            <PageSEO title={`${frontMatter.title}`} description={frontMatter.summary} />
       {frontMatter.draft !== true ? (
         <MDXLayoutRenderer
           layout={frontMatter.layout || DEFAULT_LAYOUT}

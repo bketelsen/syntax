@@ -3,7 +3,7 @@ title: About Brian
 date: '2016-03-08'
 tags: ['markdown', 'code', 'features']
 draft: false
-summary: Example of a markdown file with code blocks and syntax highlighting
+summary: Too Much Information about Brian Ketelsen
 ---
 
 Howdy! Thanks for stopping by. I'm Brian Ketelsen, and I've been doing technology things since [acoustic modem couplers](https://en.wikipedia.org/wiki/Acoustic_coupler) were a thing. I love Open Source and exploring different programming languages. Some highlights about me and my activities:
