@@ -13,7 +13,9 @@ export default function Blog({posts}) {
     <>
     <Head>
     <title>Brian Ketelsen</title>
-    <meta name="description" content={siteMetadata.description} />
+        <meta name="description" content={siteMetadata.description} />
+        <PageSEO title={`Brian Ketelsen - Bytes`} description="Quick Bytes of Information" />
+
       </Head>
       <Hero
         title={"Bytes"}

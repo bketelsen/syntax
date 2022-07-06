@@ -183,3 +183,4 @@ function formatSlug(slug) {
 ls('./src/data/blog').catch(console.error)
 
 ls('./src/data/elsewhere').catch(console.error)
+ls('./src/data/pages').catch(console.error)
