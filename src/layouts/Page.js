@@ -1,17 +1,15 @@
-import Link from '@/components/Link'
 import PageTitle from '@/components/PageTitle'
 import SectionContainer from '@/components/SectionContainer'
-import { BlogSEO } from '@/components/SEO'
+import { PageSEO } from '@/components/SEO'
 import siteMetadata from '../data/siteMetadata'
-import formatDate from '@/lib/utils/formatDate'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 import { Prose } from '@/components/Prose'
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
-  const { date, title } = frontMatter
+  const {  title } = frontMatter
 
   return (
     <SectionContainer>
-      <BlogSEO url={`${siteMetadata.siteUrl}${frontMatter.slug}`} {...frontMatter} />
+      <PageSEO url={`${siteMetadata.siteUrl}${frontMatter.slug}`} {...frontMatter} />
       <ScrollTopAndComment />
       <article>
         <div>
