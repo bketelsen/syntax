@@ -8,6 +8,7 @@ import siteMetadata from '@/data/siteMetadata'
 import Image from '@/components/Image';
 import brian from '@/images/brian.jpg'
 import { BlogNewsletterForm } from '@/components/NewsletterForm';
+import { PageSEO } from '@/components/SEO'
 
 export default function Blog({ posts }) {
   return (
@@ -16,6 +17,8 @@ export default function Blog({ posts }) {
         <title>Brian Ketelsen</title>
         <meta name="description" content={siteMetadata.description} />
       </Head>
+      <PageSEO title={`Brian Ketelsen`} description={siteMetadata.description} />
+
       <Hero
         title={siteMetadata.heroTitle}
         text={siteMetadata.heroText}  >
