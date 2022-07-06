@@ -7,7 +7,7 @@ import clsx from 'clsx';
 import { Hero } from '@/components/Hero';
 import { Icon } from '@/components/Icon'
 import siteMetadata from '@/data/siteMetadata'
-
+import { PageSEO } from '@/components/SEO'
 export default function Blog({posts}) {
   return (
     <>
