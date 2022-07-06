@@ -8,6 +8,7 @@ import Pre from './Pre'
 import { BlogNewsletterForm } from './NewsletterForm'
 import { Bookmark } from './cards/Bookmark'
 import { Callout } from './Callout'
+import { ImageGallery } from './Gallery'
 
 export const MDXComponents = {
   Image,
@@ -16,6 +17,7 @@ export const MDXComponents = {
   pre: Pre,
   BlogNewsletterForm: BlogNewsletterForm,
   Bookmark: Bookmark,
+  ImageGallery: ImageGallery,
   Callout: Callout,
   wrapper: ({ components, layout, ...rest }) => {
     const Layout = require(`../layouts/${layout}`).default
