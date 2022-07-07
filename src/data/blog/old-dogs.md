@@ -1,6 +1,6 @@
 ---
 date: '2016-06-13'
-images: ['/static/images/old-dogs/pavel-anoshin-m-fvIeA9WZU-unsplash.jpg']
+images: ['/fixed/images/old-dogs/pavel-anoshin-m-fvIeA9WZU-unsplash.jpg']
 tags: ['frontend', 'javascript', 'css']
 title: 'Old Dogs, New Tricks, and Cognitive Bias'
 summary: 'Old Dogs, New Tricks, and Cognitive Bias'

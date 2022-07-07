@@ -1,7 +1,7 @@
 ---
 title: Byobu on WSL
 date: '2019-10-09'
-images: ['/static/images/mbLr6NEatMI.jpg'] # image path/url
+images: ['/fixed/images/mbLr6NEatMI.jpg'] # image path/url
 summary: 'Make your life easier with Byobu'
 tags: ['terminal']
 layout: PostImage
@@ -13,11 +13,11 @@ layout: PostImage
 
 You can install Byobu on nearly any \*nix-like operating system. Since I'm using Ubuntu and Debian, I'll use `apt` to install the version that is shipped with the OS:
 
-![byobu check](/static/images/byobucheck.png)
+![byobu check](/fixed/images/byobucheck.png)
 
 Once installed it's easy to start a session, just type the `byobu` command:
 
-![new session](/static/images/byobuopen.png)
+![new session](/fixed/images/byobuopen.png)
 
 ### Enabling
 
@@ -33,11 +33,11 @@ In stark contrast to `tmux` and `screen`, `byobu` is pretty easy to use. By defa
 
 Once inside a `byobu` session, you can create multiple windows inside your terminal session. If you've used a terminal client that supports tabs, this isn't much different. The benefit is that your windows are persisted with your session. So you can exit and resume your session with all your windows intact.
 
-![single window](/static/images/byobunvim.png)
+![single window](/fixed/images/byobunvim.png)
 
 Windows are labeled with a number in the status bar at the bottom of the screen. Press `F2` to open a new window and you should see a second terminal appear:
 
-![second window](/static/images/byobuwin.png)
+![second window](/fixed/images/byobuwin.png)
 
 Now I have two windows open, labeled `0:neovim` and `1:` in the taskbar. I skipped a step here and renamed my original window so I wouldn't get lost when I add more than one. Press `F8` to rename a window. Note that the window name is just for decoration, it doesn't relate to running processes at all.
 
@@ -47,7 +47,7 @@ To navigate between your windows, use `F3` and `F4` for previous and next window
 
 Sometimes, I like to have two different terminal applications running in one window. For example, when editing this blog:
 
-![split](/static/images/byobusplit.png)
+![split](/fixed/images/byobusplit.png)
 
 The top part of the split has `neovim` editing the content of this post. The bottom part of the split is the output of `hugo` as it watches the content directory.
 

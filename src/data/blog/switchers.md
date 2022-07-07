@@ -1,6 +1,6 @@
 ---
 date: '2016-11-07'
-images: ['/static/images/switchers/getamac.png']
+images: ['/fixed/images/switchers/getamac.png']
 tags: ['hacks', 'i3', 'windows', 'linux', 'mac']
 title: 'Switching - Irony and Operating systems'
 summary: 'Switching - Irony and Operating systems'

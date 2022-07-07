@@ -2,7 +2,7 @@
 categories:
   - 'Development'
 date: '2016-09-19'
-images: ['/static/images/errgroup/nick-taylor-gDQ99yDy1M4-unsplash.jpg']
+images: ['/fixed/images/errgroup/nick-taylor-gDQ99yDy1M4-unsplash.jpg']
 tags: ['go']
 title: 'sync.ErrGroup'
 summary: 'sync.ErrGroup'

@@ -1,6 +1,6 @@
 ---
 date: '2015-12-05'
-images: ['/static/images/tastyworms/sandworm-bread-03.jpg']
+images: ['/fixed/images/tastyworms/sandworm-bread-03.jpg']
 tags: ['dune', 'recipes']
 title: 'Tasty Worms'
 summary: 'Tasty Worms'
@@ -8,7 +8,7 @@ summary: 'Tasty Worms'
 
 A coworker sent me a link to this recipe and I have to share it. It's the tastiest looking sandworm ever.
 
-![sandworm bread](/static/images/tastyworms/sandworm-bread-03.jpg)
+![sandworm bread](/fixed/images/tastyworms/sandworm-bread-03.jpg)
 
 [Spice Filled Sandworm](https://kitchenoverlord.com/dune-week-spice-filled-sandworm/)
 

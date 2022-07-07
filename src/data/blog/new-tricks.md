@@ -1,6 +1,6 @@
 ---
 date: '2016-05-04'
-images: ['/static/images/new-tricks/cubicroot-xyz-rFNVqR2rJE0-unsplash.jpg']
+images: ['/fixed/images/new-tricks/cubicroot-xyz-rFNVqR2rJE0-unsplash.jpg']
 tags: ['frontend', 'javascript']
 title: 'New Tricks - notes as I learn modern front-end development'
 summary: 'New Tricks - notes as I learn modern front-end development'

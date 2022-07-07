@@ -1,7 +1,7 @@
 ---
 date: '2018-03-10'
 summary: 'Use a folder from your Windows drive as your $HOME directory in WSL'
-images: ['/static/images/going-overboard-with-wsl-metadata/wsl-side.PNG']
+images: ['/fixed/images/going-overboard-with-wsl-metadata/wsl-side.PNG']
 tags: ['wsl']
 title: 'Going Overboard with WSL metadata'
 ---
@@ -30,7 +30,7 @@ $> rsync -azvh /home/bketelsen/ /home/bketelsen2
 
 This took quite a while to complete because my home directory in WSL was full of code. When it finished, I had a full copy of my WSL home `/home/bketelsen2` directory which was mounted from `C:\home`. On the Windows side, the `C:\home` directory shows all of my WSL files:
 
-![Windows Side](/static/images/2018/03/windows-side-1.PNG)
+![Windows Side](/fixed/images/2018/03/windows-side-1.PNG)
 
 That's pretty slick! Now all I needed to do was make that my $HOME and I'd be set.
 
@@ -64,17 +64,17 @@ Closing and re-opening WSL confirmed that my WSL `$HOME` directory was now `/mnt
 
 With this setup, I have a single folder -- `C:\home` -- available in Windows, but also mounted as my WSL `$HOME`, too. Files can be modified on either side, with no apparent ill effects. **_Editors Note: This is unproven, and not for risk-averse people. Use this setup at your own risk. Backup your data._**
 
-![wsl-side](/static/images/2018/03/wsl-side.PNG)
+![wsl-side](/fixed/images/2018/03/wsl-side.PNG)
 
 ### One More Thing
 
 Because too much is never enough, I wanted to prove that this would work for more than one WSL installation. So I installed the just-announced Debian WSL app, and applied exactly the same change to my `/etc/passwd` file and `/etc/wsl.conf` files.
 
-![debian-installer](/static/images/2018/03/debian-installer.PNG)
+![debian-installer](/fixed/images/2018/03/debian-installer.PNG)
 
 Now I have two different Linux installations in WSL: Ubuntu and Debian. They have separate root filesystems, but a single shared `$HOME` directory:
 
-![debian](/static/images/2018/03/debian.PNG)
+![debian](/fixed/images/2018/03/debian.PNG)
 
 This is extremely cool. I set up my Go development environment on the Windows side using [Visual Studio Code](https://cda.ms/ht) but set the `$GOPATH` to `C:\home\go`, which is the same as `$HOME/go` on the WSL side. Now I can develop in Windows or WSL/Linux against the exact same code without any strange permission problems. Most of the time I'll probably stay in `neovim`, because it's my first love. But there are no issues when I use VS Code from the Windows side. I can compile and test from both Windows and Linux with the same source directory.
 
@@ -99,4 +99,4 @@ Thank you to [@nunixtech](https://twitter.com/nunixtech) for the idea that spawn
 
 I realized after this worked that the next logical progression of this experiment was to share the same $HOME between Windows and WSL.  TLDR; It works perfectly.  I updated my `/etc/passwd` home directory entry to `/mnt/c/Users/bkete`, moved the contents of the `c:\home` directory into `c:\Users\bkete`, and now I have a single shared home directory between Windows and WSL.  Here's a picture of my OneDrive directory being accessed from WSL as `$HOME/OneDrive`:
 
-![onedrive](/static/images/2018/03/onedrive.PNG)
+![onedrive](/fixed/images/2018/03/onedrive.PNG)

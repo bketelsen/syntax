@@ -1,6 +1,6 @@
 ---
 name: Brian Ketelsen
-avatar: /static/images/logo.png
+avatar: /fixed/images/logo.png
 occupation: Cloud Developer Advocate
 company: Amazon/aws
 email: mail@bjk.fyi

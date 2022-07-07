@@ -1,7 +1,7 @@
 ---
 title: Windows for Open Source Development
 date: '2020-02-24'
-images: ['/static/images/h3GAGi5tXMU.jpg']
+images: ['/fixed/images/h3GAGi5tXMU.jpg']
 summary: 'A Series on Using Windows for Open Source Development'
 tags: ['windows', 'linux', 'open source', '30-daywslchallenge']
 ---
@@ -45,7 +45,7 @@ After unboxing your new laptop the first thing to do is rename it. Windows comes
 
 Go to `Start > Settings > System > About` and click the `Rename this PC` button. I like to name my computers after [planets in the Dune series of novels](https://dune.fandom.com/wiki/Category:Planets), but you do you...
 
-![Rename PC](/static/images/wsl/renamepc.jpg)
+![Rename PC](/fixed/images/wsl/renamepc.jpg)
 
 - Move to Windows Insider to get beta builds.  
   Update:
@@ -53,7 +53,7 @@ Go to `Start > Settings > System > About` and click the `Rename this PC` button.
 
 Open the Start Menu, then choose Settings, then Update & Security
 
-![Insider](/static/images/wsl/insider.png)
+![Insider](/fixed/images/wsl/insider.png)
 
 Add or link an account, and set up [Windows Insider](https://insider.windows.com/en-us/) preferences to be either ["Slow Ring" or "Fast Ring"](https://insider.windows.com/en-us/how-to-pc/#about-rings) to enable WSL2. Enabling Windows Insider will require a reboot. Slow ring is the minimum required for WSL2 (build 18917 or higher), Fast ring has all the latest features and potentially some bugs that could prevent you from being productive. Use your judgement to choose which to install based on your tolerance for risk.
 
@@ -71,7 +71,7 @@ It will be automatically installed after an update or two, so this isn't critica
 
 Open PowerShell as an Administrator:
 
-![Elevated Access Powershell](/static/images/wsl/wsl-powershell-admin.png)
+![Elevated Access Powershell](/fixed/images/wsl/wsl-powershell-admin.png)
 
 run these two commands:
 
@@ -89,7 +89,7 @@ Open the Microsoft Store app and install any updates that are pending. If you wa
 
 Install [Ubuntu](https://www.microsoft.com/store/productId/9NBLGGH4MSV6) from the Microsoft Store. Don't pick a versioned app, just choose the `Ubuntu` app without a version. It follows LTS.
 
-![Ubuntu](/static/images/wsl/microsoft-store-ubuntu.png)
+![Ubuntu](/fixed/images/wsl/microsoft-store-ubuntu.png)
 
 Let's and make WSL 2 our _default_ per the [Installation Instructions for WSL 2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-install). If we don't do this we risk running WSL 1 accidentally and WSL 2 has _much_ better performance. Let's open a terminal and run:
 
@@ -99,15 +99,15 @@ wsl --set-default-version 2
 
 Install [Windows Terminal](https://www.microsoft.com/store/productId/9N0DX20HK701). The new Windows Terminal is a solid terminal emulator, and you'll feel at home here if you're used to iTerm2 or Gnome Terminal. I didn't mark this as optional, because you're used to using a real terminal, and Windows Terminal is the only thing that will satisfy you. Trust me on this.
 
-![Windows Terminal](/static/images/wsl/windows-terminal.png)
+![Windows Terminal](/fixed/images/wsl/windows-terminal.png)
 
 - Open the `Ubuntu` app from your Start menu
 
-![ubuntu](/static/images/wsl/wsl-first-run.png)
+![ubuntu](/fixed/images/wsl/wsl-first-run.png)
 
 After a moment, it will ask for a username and password. These are your credentials inside the Linux world. You can choose any \*nix friendly username.
 
-![success](/static/images/wsl/wsl-success.png)
+![success](/fixed/images/wsl/wsl-success.png)
 
 - Download and install Visual Studio Code
 
@@ -115,11 +115,11 @@ Go to [the VS Code website](https://code.visualstudio.com/Download) and download
 
 - Pin VS Code and Windows Terminal to your start menu (and maybe your taskbar)
 
-![pin](/static/images/wsl/pintostart.png)
+![pin](/fixed/images/wsl/pintostart.png)
 
 - Install the Remote WSL extension in Visual Studio Code which is part of the [VS Code Remote Development extension pack](https://code.visualstudio.com/docs/remote/remote-overview#_remote-development-extension-pack)
 
-![remote](/static/images/wsl/vscode-remote-extensionpack.png)
+![remote](/fixed/images/wsl/vscode-remote-extensionpack.png)
 
 - Configure Windows Terminal
 
@@ -127,7 +127,7 @@ Open Windows Terminal, then click the "down arrow" next to the new tab button. C
 
 Find the stanza with your "Ubuntu" installation and copy the `guid`. Paste it into the value for "defaultProfile" at the top of the settings file.
 
-![default](/static/images/wsl/terminal-default-profile.png)
+![default](/fixed/images/wsl/terminal-default-profile.png)
 
 While you're in there, download [Cascadia Code PL](https://github.com/microsoft/cascadia-code/releases) and install it (by double-clicking on the ttf file). Edit your "Ubuntu" profile in the Windows Terminal settings to use the new font:
 
@@ -151,7 +151,7 @@ In the last step we set the starting directory for Windows Terminal's Ubuntu ins
 
 To navigate there directly enter `\\wsl$` in the address bar of Windows Explorer:
 
-![Windows Explorer](/static/images/wsl/explorer-integration.png)
+![Windows Explorer](/fixed/images/wsl/explorer-integration.png)
 
 ### Continuing On
 
@@ -165,7 +165,7 @@ Note that WSL is just Linux, Ubuntu to be precise (get that??). You shouldn't ha
 
 Recently [Docker announced](https://docs.docker.com/docker-for-windows/wsl-tech-preview/) a version of Docker Desktop that works very nicely with both the Windows and WSL sides of your development. Impressive reading in that link if you're interested in the technical details. Follow the directions in that link to install and enable WSL2-friendly Docker Desktop.
 
-![Docker from Both Sides](/static/images/docker-two-sides.png)
+![Docker from Both Sides](/fixed/images/docker-two-sides.png)
 
 You can even just [install Docker Engine - Community for Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/) right inside WSL, if you prefer.
 

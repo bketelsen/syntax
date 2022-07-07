@@ -9,9 +9,9 @@ const siteMetadata = {
   theme: 'system', // system, dark or light
   siteUrl: 'https://syntax-six.vercel.app',
   siteRepo: 'https://github.com/bketelsen/syntax',
-  siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
-  socialBanner: '/static/images/twitter-card.png',
+  siteLogo: '/fixed/images/logo.png',
+  image: '/fixed/images/avatar.png',
+  socialBanner: '/fixed/images/twitter-card.png',
   email: 'mail@bjk.fyi',
   github: 'https://github.com/bketelsen',
   twitter: 'https://twitter.com/bketelsen',

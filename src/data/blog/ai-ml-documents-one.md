@@ -3,7 +3,7 @@ title: Organizing Documents with Some AI, ML, and Elbow Grease
 date: '2019-09-03'
 summary: 'Organizing my loose documents with some machine learning, cognitive services, and elbow grease.'
 tags: ['ml', 'linux', 'azure']
-images: ['/static/images/ai-ml-documents-one/IGa3Md8wP6g.jpg']
+images: ['/fixed/images/ai-ml-documents-one/IGa3Md8wP6g.jpg']
 ---
 
 In this first post of (likely) a multi-part series I'm going to discuss how I am using machine learning, AI, and good old-fashioned elbow grease to make sense of the 3000 files in my `~/Documents/Unfiled` directory.

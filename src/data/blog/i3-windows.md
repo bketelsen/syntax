@@ -1,6 +1,6 @@
 ---
 date: '2016-07-03'
-images: ['/static/images/i3-windows/windows-on-top-1.png']
+images: ['/fixed/images/i3-windows/windows-on-top-1.png']
 tags: ['windows', 'linux']
 summary: 'Running i3 Window Manager on Bash For Windows'
 title: 'Running i3 Window Manager on Bash For Windows'
@@ -44,5 +44,5 @@ _This article was created in `neovim` for Linux, running on a `zsh` shell inside
 
 Screen shots:
 
-[i3 in MobaXTerm](/static/images/2017/09/i3.png)
-[i3 behind Windows](/static/images/2017/09/windows-on-top.png)
+[i3 in MobaXTerm](/fixed/images/2017/09/i3.png)
+[i3 behind Windows](/fixed/images/2017/09/windows-on-top.png)

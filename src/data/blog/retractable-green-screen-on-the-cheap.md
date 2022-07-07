@@ -3,7 +3,7 @@ date: '2018-10-06'
 tags: ['hacks', 'video']
 title: 'Retractable Green Screen On the Cheap'
 summary: 'Retractable Green Screen On the Cheap'
-images: ['/static/images/retractable-green-screen-on-the-cheap/IMG_1380-1.jpeg']
+images: ['/fixed/images/retractable-green-screen-on-the-cheap/IMG_1380-1.jpeg']
 ---
 
 Quick post to write up how I built a retractable green screen mount on my wall for not much money.
@@ -14,14 +14,14 @@ When the mounting bracket arrived, it said to use a metal rod with a 2" (two inc
 
 Then I measured the target wall and found it was 11.5 feet wide, perfect for my install. I did the math to center the mount on the wall, accounting for the several inches of the pole-mount that stick out from each side.
 
-![Triple Bracket Mounted On The Wall](/static/images/retractable-green-screen-on-the-cheap/IMG_1378.jpeg)
+![Triple Bracket Mounted On The Wall](/fixed/images/retractable-green-screen-on-the-cheap/IMG_1378.jpeg)
 
 Then to secure the backdrop to the PVC tubing, I reinforced the backdrop with Gorilla tape every 12 inches. Duct tape or any other strong tape would work fine. I drilled a hole through the reinforced backdrop and inserted a wood screw and washer to keep the backdrop secured to the PVC pipe.
 
-![Reinforced Fabric with Gorilla Tape](/static/images/retractable-green-screen-on-the-cheap/IMG_1381.jpg)
+![Reinforced Fabric with Gorilla Tape](/fixed/images/retractable-green-screen-on-the-cheap/IMG_1381.jpg)
 
 The whole thing took about an hour, mostly because it was awkward working with such a wide format project. I called my kids in randomly to help when I needed an extra set of hands.
 
-![Final Assembly](/static/images/retractable-green-screen-on-the-cheap/IMG_1380.jpeg)
+![Final Assembly](/fixed/images/retractable-green-screen-on-the-cheap/IMG_1380.jpeg)
 
 It was really inexpensive, and I can add two more backdrops in the future if the need arises. Far better than the $1500+ solutions I found at photography stores, and much less intrusive than the nasty stands that take up too much floor space.

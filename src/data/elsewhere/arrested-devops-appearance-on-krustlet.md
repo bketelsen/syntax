@@ -1,7 +1,7 @@
 ---
 title: Arrested DevOps Appearance on Krustlet
 date: '2020-04-14'
-images: ['/static/images/arrested-devops-appearance-on-krustlet/b2iviaMJtoU.jpg']
+images: ['/fixed/images/arrested-devops-appearance-on-krustlet/b2iviaMJtoU.jpg']
 summary: 'Podcast about Rust, Kubernetes, and Web Assembly'
 tags: ['rust', 'wasm', 'podcast', 'kubernetes']
 ---

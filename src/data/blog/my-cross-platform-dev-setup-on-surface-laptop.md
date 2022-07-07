@@ -1,6 +1,6 @@
 ---
 date: '2017-09-29'
-images: ['/static/images/my-cross-platform-dev-setup-on-surface-laptop/desktop.png'] # image path/url
+images: ['/fixed/images/my-cross-platform-dev-setup-on-surface-laptop/desktop.png'] # image path/url
 tags: ['development', 'linux', 'windows']
 title: 'My Cross-Platform Dev Setup on Surface Laptop'
 summary: 'My Cross-Platform Dev Setup on Surface Laptop'
@@ -41,7 +41,7 @@ I store my code in Windows. For the past year I treated the WSL filesystem and t
 
 > It drove me crazy, and blocked me from even looking at the windows filesystem from bash.
 
-![uglycolors](/static/images/2017/09/uglycolors.png)
+![uglycolors](/fixed/images/2017/09/uglycolors.png)
 
 That meant that my source code was only in WSL's filesystem, and completely invisible to Windows. In turn, this caused limitations on what I could do with the code. Because it was only in WSL, I had to operate on the files using either command-line tools, or X Windows tools using an X Client from Windows. It wasn't a show-stopper, but it was a little awkward.
 
@@ -74,7 +74,7 @@ export DOCKER_HOST=tcp://127.0.0.1:2375
 ```
 
 It's also necessary to tell Docker for Windows to listen on TCP:
-![dockersettings](/static/images/2017/09/dockersettings.png)
+![dockersettings](/fixed/images/2017/09/dockersettings.png)
 
 Now Docker works from both Windows and WSL. All my code and scripts that expected a local Docker instance continue to work as they did when I was developing directly on a Linux host.
 

@@ -3,7 +3,7 @@ categories:
   - 'speaking'
   - 'training'
 date: '2016-06-18'
-images: ['/static/images/mikael-kristenson-3aVlWP-7bg8-unsplash.jpg'] # image path/url
+images: ['/fixed/images/mikael-kristenson-3aVlWP-7bg8-unsplash.jpg'] # image path/url
 aliases:
   - '/career-2-0-go-training-videos-speaking'
 tags: ['speaking', 'training']
