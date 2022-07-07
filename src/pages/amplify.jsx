@@ -2,7 +2,7 @@ import { withSSRContext } from 'aws-amplify'
 import { Post } from '../models'
 import Head from 'next/head'
 
-export async function getServerSideProps (context) {
+export async function getStaticProps (context) {
     const SSR = withSSRContext(context.req)
     const posts = await SSR.DataStore.query(Post)
   
