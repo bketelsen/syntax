@@ -16,7 +16,6 @@
     "@sindresorhus/slugify": "^2.1.0",
     "@tailwindcss/typography": "^0.5.2",
     "autoprefixer": "^10.4.7",
-    "aws-amplify": "^4.3.26",
     "canvas": "^2.8.0",
     "esbuild": "^0.13.13",
     "focus-visible": "^5.2.0",

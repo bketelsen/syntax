@@ -7,10 +7,6 @@ import { Layout } from '@/components/Layout'
 import 'focus-visible'
 import '@/styles/tailwind.css'
 
-import Amplify from 'aws-amplify'
-import awsconfig from '../aws-exports.js'
-Amplify.configure({ ...awsconfig, ssr: true })
-
 function getNodeText(node) {
   let text = ''
   for (let child of node.children ?? []) {
