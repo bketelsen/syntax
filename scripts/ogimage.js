@@ -13,7 +13,7 @@ registerFont('./assets/FiraSans-Light.ttf', { family: 'Fira Sans' })
 async function ls(p) {
   const canvas = createCanvas(width, height)
   const context = canvas.getContext('2d')
-  const base = './assets/og-standard.png'
+  const base = './assets/ogbackground.png'
   const dir = await fs.promises.opendir(p)
   for await (const dirent of dir) {
     if (dirent.isFile()) {
@@ -37,18 +37,12 @@ async function ls(p) {
       const spaceTags = hashTags.join(' ')
       console.log(spaceTags)
 
-      loadImage(img).then((image) => {
+      loadImage(base).then((image) => {
         context.drawImage(image, 0, 0, 1200, 630)
         context.font = 'bold 50pt "Fira Sans"'
         context.textAlign = 'center'
         context.textBaseline = 'top'
         context.fillStyle = '#000'
-
-        context.beginPath();
-        context.moveTo(0,0);
-        context.lineTo(650,0);
-        context.lineTo(0,1800);
-        context.fill();
         //context.save()
         const text = data.title
         //context.globalAlpha = 0.4
@@ -62,7 +56,7 @@ async function ls(p) {
         // draw title
         const fontSizeUsed = drawMultilineText(context, text, {
           rect: {
-            x: 0,
+            x: 100,
             y: 0,
             width: 800,
             height: 300,
@@ -73,17 +67,13 @@ async function ls(p) {
           minFontSize: 70,
           maxFontSize: 130,
         })
-        context.save()
-        context.globalAlpha = 0.4
-        context.fillStyle = '#000'
-        context.fillRect(200 - 10, 480 - 5, 820, 120)
-        context.restore()
+
         context.fillStyle = '#fff'
-        context.textAlign = 'center'
+        context.textAlign = 'left'
         context.textBaseline = 'alphabetic'
         const fontSizeUsed2 = drawMultilineText(context, spaceTags, {
           rect: {
-            x: 600,
+            x: 100,
             y: 480,
             width: 800,
             height: 100,
@@ -98,7 +88,7 @@ async function ls(p) {
         const buffer = canvas.toBuffer('image/png')
         const imagePath = path.join(
           './public',
-          'static',
+          'fixed',
           'images',
           'og',
           path.basename(p),
