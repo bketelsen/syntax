@@ -20,22 +20,9 @@ async function ls(p) {
       const file = path.join(p, dirent.name)
       const source = fs.readFileSync(file, 'utf8')
       const { data } = matter(source)
-      console.log(data.title)
-      console.log(data.images)
-      var img
-      if (data.images) {
-        if (data.images.length > 0) {
-          img = './public' + data.images[0]
-        } else {
-          img = base
-        }
-      } else {
-        img = base
-      }
-      console.log(data.title, img)
+
       const hashTags = data.tags.map((t) => '#' + t)
       const spaceTags = hashTags.join(' ')
-      console.log(spaceTags)
 
       loadImage(base).then((image) => {
         context.drawImage(image, 0, 0, 1200, 630)
@@ -43,21 +30,17 @@ async function ls(p) {
         context.textAlign = 'center'
         context.textBaseline = 'top'
         context.fillStyle = '#000'
-        //context.save()
-        const text = data.title
-        //context.globalAlpha = 0.4
 
-        // background box for title
-        //context.fillRect(200 - 10, 160 - 5, 820, 320)
-        //context.restore()
+        const text = data.title
+
         context.fillStyle = '#fff'
         context.textAlign = 'left'
-        context.textBaseline = 'middle'
+        context.textBaseline = 'center'
         // draw title
         const fontSizeUsed = drawMultilineText(context, text, {
           rect: {
             x: 100,
-            y: 0,
+            y: 50,
             width: 800,
             height: 300,
           },
@@ -81,6 +64,23 @@ async function ls(p) {
           font: 'Fira Sans',
           verbose: true,
           lineHeight: 1,
+          minFontSize: 25,
+          maxFontSize: 40,
+        })
+
+        context.fillStyle = '#fff'
+        context.textAlign = 'right'
+        context.textBaseline = 'alphabetic'
+        const fontSizeUsed3 = drawMultilineText(context, '@bketelsen https://brian.dev', {
+          rect: {
+            x: 1150,
+            y: 470,
+            width: 400,
+            height: 200,
+          },
+          font: 'Fira Sans',
+          verbose: true,
+          lineHeight: 1.5,
           minFontSize: 25,
           maxFontSize: 40,
         })
