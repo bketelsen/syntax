@@ -11,7 +11,7 @@ const siteMetadata = {
   siteRepo: 'https://github.com/bketelsen/syntax',
   siteLogo: '/fixed/images/logo.png',
   image: '/fixed/images/avatar.png',
-  socialBanner: '/fixed/images/twitter-card.png',
+  socialBanner: '/fixed/images/briandev.png',
   email: 'mail@bjk.fyi',
   github: 'https://github.com/bketelsen',
   twitter: 'https://twitter.com/bketelsen',
