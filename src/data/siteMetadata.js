@@ -16,8 +16,8 @@ const siteMetadata = {
   github: 'https://github.com/bketelsen',
   twitter: 'https://twitter.com/bketelsen',
   facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  youtube: 'https://www.youtube.com/c/BrianKetelsen',
+  linkedin: 'https://www.linkedin.com/in/brianketelsen/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the

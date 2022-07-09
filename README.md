@@ -2,7 +2,7 @@
 
 ## TODO
 
-- [ ] Authorizer [authorizerdev](https://github.com/authorizerdev/examples/tree/main/with-nextjs/pages)
+- [ ] Authorizer [authorizerdev](https://github.com/authorizerdev/examples/tree/main/with-nextjs/pages) ??
 - [ ] OG Images
 - [ ] Footer Nav Links
 - [X] Mobile Navigation
