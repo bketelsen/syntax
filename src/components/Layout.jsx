@@ -59,7 +59,7 @@ function Header() {
       </div>
       <div className="relative flex justify-end space-x-6 basis-0 sm:space-x-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
-        <Link href="https://github.com">
+        <Link href="https://github.com/bketelsen">
           <a className="group">
             <span className="sr-only">GitHub</span>
             <svg
