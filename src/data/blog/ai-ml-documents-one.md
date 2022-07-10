@@ -41,7 +41,7 @@ As a first step, I wrote a small Go program that calls [Azure Cognitive Services
 
 I created a domain type appropriately called `Document` that stores metadata about files on disk:
 
-```go
+```go:document.go
 type Document struct {
 	Hash         string
 	Path         string
