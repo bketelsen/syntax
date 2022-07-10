@@ -7,7 +7,7 @@ const siteMetadata = {
   description: "Brian Ketelsen is a developer advocate, keynote speaker, author, and open source practitioner.",
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://',
+  siteUrl: 'https://www.brian.dev',
   siteRepo: 'https://github.com/bketelsen/syntax',
   siteLogo: '/fixed/images/logo.png',
   image: '/fixed/images/avatar.png',
