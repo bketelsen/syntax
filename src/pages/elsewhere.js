@@ -3,7 +3,7 @@ import { PageSEO } from '@/components/SEO'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import siteMetadata from '@/data/siteMetadata'
 
-export const POSTS_PER_PAGE = 3
+export const POSTS_PER_PAGE = 10
 
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter('elsewhere')

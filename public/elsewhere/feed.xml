@@ -2,18 +2,18 @@
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
       <title>brian.dev</title>
-      <link>https://syntax-six.vercel.app/blog</link>
+      <link>https://www.brian.dev/blog</link>
       <description>Brian Ketelsen is a developer advocate, keynote speaker, author, and open source practitioner.</description>
       <language>en-us</language>
       <managingEditor>mail@bjk.fyi (Brian Ketelsen)</managingEditor>
       <webMaster>mail@bjk.fyi (Brian Ketelsen)</webMaster>
       <lastBuildDate>Mon, 12 Jul 2021 00:00:00 GMT</lastBuildDate>
-      <atom:link href="https://syntax-six.vercel.app/null" rel="self" type="application/rss+xml"/>
+      <atom:link href="https://www.brian.dev/null" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://syntax-six.vercel.app/blog/the-popcast-episode-76</guid>
+    <guid>https://www.brian.dev/blog/the-popcast-episode-76</guid>
     <title>The POPCAST Episode 76</title>
-    <link>https://syntax-six.vercel.app/blog/the-popcast-episode-76</link>
+    <link>https://www.brian.dev/blog/the-popcast-episode-76</link>
     <description>I had a great time with Dan on this episode of The POPCAST.</description>
     <pubDate>Mon, 12 Jul 2021 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -21,9 +21,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/arrested-devops-appearance-on-krustlet</guid>
+    <guid>https://www.brian.dev/blog/arrested-devops-appearance-on-krustlet</guid>
     <title>Arrested DevOps Appearance on Krustlet</title>
-    <link>https://syntax-six.vercel.app/blog/arrested-devops-appearance-on-krustlet</link>
+    <link>https://www.brian.dev/blog/arrested-devops-appearance-on-krustlet</link>
     <description>Podcast about Rust, Kubernetes, and Web Assembly</description>
     <pubDate>Tue, 14 Apr 2020 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -31,13 +31,23 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/stuttgart-go-meetup</guid>
+    <guid>https://www.brian.dev/blog/stuttgart-go-meetup</guid>
     <title>Stuttgart Go Meetup</title>
-    <link>https://syntax-six.vercel.app/blog/stuttgart-go-meetup</link>
+    <link>https://www.brian.dev/blog/stuttgart-go-meetup</link>
     <description>Presentation to Stuttgart Go Meetup about Go Modules</description>
     <pubDate>Thu, 20 Sep 2018 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
     <category>go</category>
+  </item>
+
+  <item>
+    <guid>https://www.brian.dev/blog/golang-uk-2017</guid>
+    <title>Golang UK 2017</title>
+    <link>https://www.brian.dev/blog/golang-uk-2017</link>
+    <description>Bringing Go to the Enterprise</description>
+    <pubDate>Wed, 12 Jul 2017 00:00:00 GMT</pubDate>
+    <author>mail@bjk.fyi (Brian Ketelsen)</author>
+    <category>conference</category>
   </item>
 
     </channel>
