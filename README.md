@@ -10,6 +10,8 @@
   - [x] Bookmark
 - [ ] Port Content
 - [ ] Slides - reveal-md to static/public
+- [ ] Elsewhere slug page - add image to top of page if possible
+- [ ] Elsewhere slug page - add event details/logo to page if possible
 
 ## Syntax
 
