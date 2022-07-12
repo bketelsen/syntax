@@ -2,18 +2,28 @@
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
       <title>brian.dev</title>
-      <link>https://syntax-six.vercel.app/blog</link>
+      <link>https://www.brian.dev/blog</link>
       <description>Brian Ketelsen is a developer advocate, keynote speaker, author, and open source practitioner.</description>
       <language>en-us</language>
       <managingEditor>mail@bjk.fyi (Brian Ketelsen)</managingEditor>
       <webMaster>mail@bjk.fyi (Brian Ketelsen)</webMaster>
-      <lastBuildDate>Mon, 12 Jul 2021 00:00:00 GMT</lastBuildDate>
-      <atom:link href="https://syntax-six.vercel.app/feed.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Tue, 12 Jul 2022 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://www.brian.dev/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://syntax-six.vercel.app/blog/the-popcast-episode-76</guid>
+    <guid>https://www.brian.dev/blog/forecast-cloudy</guid>
+    <title>Forecast: Cloudy</title>
+    <link>https://www.brian.dev/blog/forecast-cloudy</link>
+    <description>It is finally convenient to dump localhost development</description>
+    <pubDate>Tue, 12 Jul 2022 00:00:00 GMT</pubDate>
+    <author>mail@bjk.fyi (Brian Ketelsen)</author>
+    <category>remote</category>
+  </item>
+
+  <item>
+    <guid>https://www.brian.dev/blog/the-popcast-episode-76</guid>
     <title>The POPCAST Episode 76</title>
-    <link>https://syntax-six.vercel.app/blog/the-popcast-episode-76</link>
+    <link>https://www.brian.dev/blog/the-popcast-episode-76</link>
     <description>I had a great time with Dan on this episode of The POPCAST.</description>
     <pubDate>Mon, 12 Jul 2021 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -21,9 +31,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/azure-vm-list</guid>
+    <guid>https://www.brian.dev/blog/azure-vm-list</guid>
     <title>List The Azure Virtual Machines Available</title>
-    <link>https://syntax-six.vercel.app/blog/azure-vm-list</link>
+    <link>https://www.brian.dev/blog/azure-vm-list</link>
     <description>Get a list of the different VM base images available on Azure</description>
     <pubDate>Tue, 25 Aug 2020 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -31,9 +41,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/install-func</guid>
+    <guid>https://www.brian.dev/blog/install-func</guid>
     <title>Bash Helpers for Quick Installs</title>
-    <link>https://syntax-six.vercel.app/blog/install-func</link>
+    <link>https://www.brian.dev/blog/install-func</link>
     <description>A quick helper function and directory layout for repeatable software installs.</description>
     <pubDate>Fri, 14 Aug 2020 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -41,9 +51,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/ssh-to-wsl2</guid>
+    <guid>https://www.brian.dev/blog/ssh-to-wsl2</guid>
     <title>Remote SSH Connections to WSL2</title>
-    <link>https://syntax-six.vercel.app/blog/ssh-to-wsl2</link>
+    <link>https://www.brian.dev/blog/ssh-to-wsl2</link>
     <description>A Series on Using Windows for Open Source Development</description>
     <pubDate>Tue, 03 Mar 2020 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -51,9 +61,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/hello-wascc</guid>
+    <guid>https://www.brian.dev/blog/hello-wascc</guid>
     <title>Hello waSCC</title>
-    <link>https://syntax-six.vercel.app/blog/hello-wascc</link>
+    <link>https://www.brian.dev/blog/hello-wascc</link>
     <description>Web Assembly on the Server</description>
     <pubDate>Tue, 25 Feb 2020 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -61,9 +71,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/win-the-dev-box</guid>
+    <guid>https://www.brian.dev/blog/win-the-dev-box</guid>
     <title>Windows for Open Source Development</title>
-    <link>https://syntax-six.vercel.app/blog/win-the-dev-box</link>
+    <link>https://www.brian.dev/blog/win-the-dev-box</link>
     <description>A Series on Using Windows for Open Source Development</description>
     <pubDate>Mon, 24 Feb 2020 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -71,9 +81,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/byobu-wsl</guid>
+    <guid>https://www.brian.dev/blog/byobu-wsl</guid>
     <title>Byobu on WSL</title>
-    <link>https://syntax-six.vercel.app/blog/byobu-wsl</link>
+    <link>https://www.brian.dev/blog/byobu-wsl</link>
     <description>Make your life easier with Byobu</description>
     <pubDate>Wed, 09 Oct 2019 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -81,9 +91,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/eggbites</guid>
+    <guid>https://www.brian.dev/blog/eggbites</guid>
     <title>Egg Bites</title>
-    <link>https://syntax-six.vercel.app/blog/eggbites</link>
+    <link>https://www.brian.dev/blog/eggbites</link>
     <description>Quick Recipe for a home-made version of Starbucks Sous-vide Egg Bites</description>
     <pubDate>Fri, 13 Sep 2019 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -91,9 +101,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/ai-ml-documents-one</guid>
+    <guid>https://www.brian.dev/blog/ai-ml-documents-one</guid>
     <title>Organizing Documents with Some AI, ML, and Elbow Grease</title>
-    <link>https://syntax-six.vercel.app/blog/ai-ml-documents-one</link>
+    <link>https://www.brian.dev/blog/ai-ml-documents-one</link>
     <description>Organizing my loose documents with some machine learning, cognitive services, and elbow grease.</description>
     <pubDate>Tue, 03 Sep 2019 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -101,9 +111,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/vscode-remote</guid>
+    <guid>https://www.brian.dev/blog/vscode-remote</guid>
     <title>VS Code Remote Development</title>
-    <link>https://syntax-six.vercel.app/blog/vscode-remote</link>
+    <link>https://www.brian.dev/blog/vscode-remote</link>
     <description>Use VS Code against a remote computer or container</description>
     <pubDate>Wed, 05 Dec 2018 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -111,9 +121,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/retractable-green-screen-on-the-cheap</guid>
+    <guid>https://www.brian.dev/blog/retractable-green-screen-on-the-cheap</guid>
     <title>Retractable Green Screen On the Cheap</title>
-    <link>https://syntax-six.vercel.app/blog/retractable-green-screen-on-the-cheap</link>
+    <link>https://www.brian.dev/blog/retractable-green-screen-on-the-cheap</link>
     <description>Retractable Green Screen On the Cheap</description>
     <pubDate>Sat, 06 Oct 2018 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -121,9 +131,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/going-overboard-with-wsl-metadata</guid>
+    <guid>https://www.brian.dev/blog/going-overboard-with-wsl-metadata</guid>
     <title>Going Overboard with WSL metadata</title>
-    <link>https://syntax-six.vercel.app/blog/going-overboard-with-wsl-metadata</link>
+    <link>https://www.brian.dev/blog/going-overboard-with-wsl-metadata</link>
     <description>Use a folder from your Windows drive as your $HOME directory in WSL</description>
     <pubDate>Sat, 10 Mar 2018 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -131,9 +141,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/getting-crazy-with-windows-subsystem-for-linux</guid>
+    <guid>https://www.brian.dev/blog/getting-crazy-with-windows-subsystem-for-linux</guid>
     <title>Getting Crazy with Windows Subsystem for Linux</title>
-    <link>https://syntax-six.vercel.app/blog/getting-crazy-with-windows-subsystem-for-linux</link>
+    <link>https://www.brian.dev/blog/getting-crazy-with-windows-subsystem-for-linux</link>
     <description>Getting Crazy with Windows Subsystem for Linux</description>
     <pubDate>Wed, 13 Dec 2017 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -141,9 +151,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/my-cross-platform-dev-setup-on-surface-laptop</guid>
+    <guid>https://www.brian.dev/blog/my-cross-platform-dev-setup-on-surface-laptop</guid>
     <title>My Cross-Platform Dev Setup on Surface Laptop</title>
-    <link>https://syntax-six.vercel.app/blog/my-cross-platform-dev-setup-on-surface-laptop</link>
+    <link>https://www.brian.dev/blog/my-cross-platform-dev-setup-on-surface-laptop</link>
     <description>My Cross-Platform Dev Setup on Surface Laptop</description>
     <pubDate>Fri, 29 Sep 2017 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -151,9 +161,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/gophercon-on-azure</guid>
+    <guid>https://www.brian.dev/blog/gophercon-on-azure</guid>
     <title>Learn With Me: Moving Gophercon to Azure</title>
-    <link>https://syntax-six.vercel.app/blog/gophercon-on-azure</link>
+    <link>https://www.brian.dev/blog/gophercon-on-azure</link>
     <description>Learn With Me: Moving Gophercon to Azure</description>
     <pubDate>Mon, 31 Jul 2017 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -161,9 +171,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/switchers</guid>
+    <guid>https://www.brian.dev/blog/switchers</guid>
     <title>Switching - Irony and Operating systems</title>
-    <link>https://syntax-six.vercel.app/blog/switchers</link>
+    <link>https://www.brian.dev/blog/switchers</link>
     <description>Switching - Irony and Operating systems</description>
     <pubDate>Mon, 07 Nov 2016 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -171,9 +181,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/errgroup</guid>
+    <guid>https://www.brian.dev/blog/errgroup</guid>
     <title>sync.ErrGroup</title>
-    <link>https://syntax-six.vercel.app/blog/errgroup</link>
+    <link>https://www.brian.dev/blog/errgroup</link>
     <description>sync.ErrGroup</description>
     <pubDate>Mon, 19 Sep 2016 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -181,9 +191,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/go17</guid>
+    <guid>https://www.brian.dev/blog/go17</guid>
     <title>Go 1.7 Released</title>
-    <link>https://syntax-six.vercel.app/blog/go17</link>
+    <link>https://www.brian.dev/blog/go17</link>
     <description>Go 1.7 Released</description>
     <pubDate>Mon, 15 Aug 2016 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -191,9 +201,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/i3-windows</guid>
+    <guid>https://www.brian.dev/blog/i3-windows</guid>
     <title>Running i3 Window Manager on Bash For Windows</title>
-    <link>https://syntax-six.vercel.app/blog/i3-windows</link>
+    <link>https://www.brian.dev/blog/i3-windows</link>
     <description>Running i3 Window Manager on Bash For Windows</description>
     <pubDate>Sun, 03 Jul 2016 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -201,9 +211,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/career-2-0-go-training-videos-speaking</guid>
+    <guid>https://www.brian.dev/blog/career-2-0-go-training-videos-speaking</guid>
     <title>Career 2.0 - Go Training, Videos, Speaking</title>
-    <link>https://syntax-six.vercel.app/blog/career-2-0-go-training-videos-speaking</link>
+    <link>https://www.brian.dev/blog/career-2-0-go-training-videos-speaking</link>
     <description>Career 2.0 - Go Training, Videos, Speaking</description>
     <pubDate>Sat, 18 Jun 2016 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -211,9 +221,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/old-dogs</guid>
+    <guid>https://www.brian.dev/blog/old-dogs</guid>
     <title>Old Dogs, New Tricks, and Cognitive Bias</title>
-    <link>https://syntax-six.vercel.app/blog/old-dogs</link>
+    <link>https://www.brian.dev/blog/old-dogs</link>
     <description>Old Dogs, New Tricks, and Cognitive Bias</description>
     <pubDate>Mon, 13 Jun 2016 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -221,9 +231,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/new-tricks</guid>
+    <guid>https://www.brian.dev/blog/new-tricks</guid>
     <title>New Tricks - notes as I learn modern front-end development</title>
-    <link>https://syntax-six.vercel.app/blog/new-tricks</link>
+    <link>https://www.brian.dev/blog/new-tricks</link>
     <description>New Tricks - notes as I learn modern front-end development</description>
     <pubDate>Wed, 04 May 2016 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -231,9 +241,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/tastyworms</guid>
+    <guid>https://www.brian.dev/blog/tastyworms</guid>
     <title>Tasty Worms</title>
-    <link>https://syntax-six.vercel.app/blog/tastyworms</link>
+    <link>https://www.brian.dev/blog/tastyworms</link>
     <description>Tasty Worms</description>
     <pubDate>Sat, 05 Dec 2015 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -241,9 +251,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/caddy-hugo-encrypt</guid>
+    <guid>https://www.brian.dev/blog/caddy-hugo-encrypt</guid>
     <title>Caddy and Let&#39;s Encrypt</title>
-    <link>https://syntax-six.vercel.app/blog/caddy-hugo-encrypt</link>
+    <link>https://www.brian.dev/blog/caddy-hugo-encrypt</link>
     <description>Caddy and Let&#39;s Encrypt</description>
     <pubDate>Wed, 11 Nov 2015 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
@@ -251,9 +261,9 @@
   </item>
 
   <item>
-    <guid>https://syntax-six.vercel.app/blog/open-source-appreciation</guid>
+    <guid>https://www.brian.dev/blog/open-source-appreciation</guid>
     <title>Open Source Appreciation</title>
-    <link>https://syntax-six.vercel.app/blog/open-source-appreciation</link>
+    <link>https://www.brian.dev/blog/open-source-appreciation</link>
     <description>Open Source Appreciation</description>
     <pubDate>Mon, 11 May 2015 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
