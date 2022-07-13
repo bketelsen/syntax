@@ -1,12 +1,13 @@
-import Link from '@/components/Link'
-import PageTitle from '@/components/PageTitle'
-import SectionContainer from '@/components/SectionContainer'
+import { BlogNewsletterForm } from '@/components/NewsletterForm'
 import { BlogSEO } from '@/components/SEO'
 import Image from '@/components/Image'
+import Link from '@/components/Link'
+import PageTitle from '@/components/PageTitle'
+import { Prose } from '@/components/Prose'
+import ScrollTopAndComment from '@/components/ScrollTopAndComment'
+import SectionContainer from '@/components/SectionContainer'
 import Tag from '@/components/Tag'
 import siteMetadata from '../data/siteMetadata'
-import ScrollTopAndComment from '@/components/ScrollTopAndComment'
-import { Prose } from '@/components/Prose'
 
 const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`
 const discussUrl = (slug) =>
@@ -87,6 +88,10 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             </dl>
             <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
               <Prose>{children}</Prose>
+              <div className="py-6">
+              <BlogNewsletterForm />
+              </div>
+
               <div className="pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
                 <Link href={discussUrl(slug)} rel="nofollow">
                   {'Discuss on Twitter'}

@@ -17,7 +17,7 @@
     <description>It is finally convenient to dump localhost development</description>
     <pubDate>Tue, 12 Jul 2022 00:00:00 GMT</pubDate>
     <author>mail@bjk.fyi (Brian Ketelsen)</author>
-    <category>remote</category>
+    <category>remote</category><category>devops</category><category>terraform</category>
   </item>
 
   <item>
