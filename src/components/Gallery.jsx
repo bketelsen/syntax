@@ -4,7 +4,7 @@ export function ImageGallery({ images }) {
     <div className="grid grid-cols-3 gap-2 mx-auto ">
       {images.map(image => (
 
-        <div key={img.src} className="w-full rounded">
+        <div key={image.src} className="w-full rounded">
           <figure>
             <Image src={image.src}
               height={image.height}
