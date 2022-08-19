@@ -1,0 +1,9 @@
+[[commands]]
+package = "nodejs"
+name = "node"
+help = "NodeJS"
+
+
+[[commands]]
+name = "dev"
+command = "npm run dev"
